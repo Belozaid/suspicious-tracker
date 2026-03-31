@@ -6,18 +6,29 @@ A comprehensive, AI-powered Security Operations Center (SOC) platform for real-t
 ✨ Features
 
 Core Capabilities
+
 🤖 AI-Powered Detection - Isolation Forest algorithm for behavioral anomaly detection
+
 📊 Real-time Monitoring - Continuous collection of processes, network connections, and system metrics
+
 🎯 Rule-Based Engine - Customizable detection rules with severity levels (LOW/MEDIUM/HIGH/CRITICAL)
+
 🔗 MITRE ATT&CK Mapping - Automatic mapping of threats to MITRE framework techniques
+
 📈 Interactive Dashboard - Real-time visualization with Plotly/Dash
+
 🔐 RBAC Authentication - Role-Based Access Control (VIEWER/ANALYST/ADMIN)
 
 Security Features
+
 🛡️ File Integrity Monitoring - SHA-256 hashing for critical file verification
+
 📋 Complete Audit Trail - Logging of all user actions and security events
+
 🌐 Threat Intelligence - IP reputation checking via VirusTotal, AbuseIPDB, IPinfo
+
 📊 Incident Management - Complete lifecycle with workflow and assignment
+
 📄 Report Generation - Automated security reports with digital signatures
 
 Technical Highlights
