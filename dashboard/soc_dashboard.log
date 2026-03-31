@@ -1,0 +1,603 @@
+2026-03-28 13:05:24,840 - __main__ - INFO - ✅ Users database initialized successfully
+2026-03-28 13:05:24,870 - __main__ - INFO - ✅ Created reports table with UUID column
+2026-03-28 13:05:24,870 - __main__ - INFO - No reports found. Generating initial security reports...
+2026-03-28 13:05:24,870 - __main__ - INFO - 📊 Generating initial security reports...
+2026-03-28 13:05:24,870 - __main__ - INFO - Reports table schema - has_uuid: True, has_old_id: False
+2026-03-28 13:05:24,889 - __main__ - INFO - ✅ Created daily report: daily_summary_20260328_130524.html
+2026-03-28 13:05:24,899 - __main__ - INFO - ✅ Created incident report: incident_analysis_20260328_130524.html
+2026-03-28 13:05:24,914 - __main__ - INFO - ✅ Created network report: network_analysis_20260328_130524.html
+2026-03-28 13:05:24,930 - __main__ - INFO - ✅ Created audit report: security_audit_20260328_130524.html
+2026-03-28 13:05:24,946 - __main__ - INFO - ✅ Created health report: system_health_20260328_130524.html
+2026-03-28 13:05:24,946 - __main__ - INFO - ✅ Successfully generated 5 initial security reports
+2026-03-28 13:05:24,946 - __main__ - INFO - Database initialized successfully
+2026-03-28 13:05:24,946 - __main__ - INFO - Current incidents table columns: ['id', 'created_at', 'updated_at', 'title', 'description', 'severity', 'status', 'assigned_to', 'alert_count', 'resolution', 'closed_at', 'category', 'priority', 'risk_score', 'affected_hosts', 'business_impact', 'data_compromised', 'financial_impact']
+2026-03-28 13:05:24,962 - __main__ - INFO - ✅ Added column 'last_update_time' to incidents table
+2026-03-28 13:05:24,962 - __main__ - INFO - ✅ Added column 'start_time' to incidents table
+2026-03-28 13:05:24,962 - __main__ - INFO - ✅ Added column 'max_severity' to incidents table
+2026-03-28 13:05:24,962 - __main__ - INFO - ✅ Added column 'summary' to incidents table
+2026-03-28 13:05:24,962 - __main__ - INFO - ✅ Added column 'related_alerts' to incidents table
+2026-03-28 13:05:24,962 - __main__ - INFO - ✅ Added column 'report_sha256' to incidents table
+2026-03-28 13:05:24,962 - __main__ - INFO - Updated incidents table columns: ['id', 'created_at', 'updated_at', 'title', 'description', 'severity', 'status', 'assigned_to', 'alert_count', 'resolution', 'closed_at', 'category', 'priority', 'risk_score', 'affected_hosts', 'business_impact', 'data_compromised', 'financial_impact', 'last_update_time', 'start_time', 'max_severity', 'summary', 'related_alerts', 'report_sha256']
+2026-03-28 13:05:24,962 - __main__ - INFO - ✅ All incidents have last_update_time values
+2026-03-28 13:05:24,962 - __main__ - INFO - Adding sample alert data to database...
+2026-03-28 13:05:24,978 - __main__ - INFO - ✅ Data tables verified and ready
+2026-03-28 13:05:24,978 - __main__ - INFO - ✅ Embedded security systems initialized
+2026-03-28 13:05:24,978 - __main__ - INFO - Integrity tables verified/created
+2026-03-28 13:05:24,978 - __main__ - INFO - Live network capture started on Ethernet
+2026-03-28 13:05:24,993 - __main__ - INFO - Live system monitor started
+2026-03-28 13:05:24,993 - __main__ - INFO - Live security event collector started
+2026-03-28 13:05:24,993 - __main__ - INFO - All live collectors started
+2026-03-28 13:05:24,993 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:05:24,993 - __main__ - INFO - 📋 Checking users configuration: 3 users found
+2026-03-28 13:05:24,993 - __main__ - INFO - 🛡️  Starting file integrity monitoring...
+2026-03-28 13:05:24,993 - __main__ - INFO - ✅ Security monitoring started
+2026-03-28 13:05:24,993 - __main__ - INFO - 🛡️  Starting file integrity monitoring...
+2026-03-28 13:05:24,993 - __main__ - INFO - File integrity monitoring started
+2026-03-28 13:05:24,993 - __main__ - INFO - 📊 Generating initial security reports...
+2026-03-28 13:05:25,041 - __main__ - INFO - Reports table schema - has_uuid: True, has_old_id: False
+2026-03-28 13:05:25,057 - __main__ - INFO - ✅ Created daily report: daily_summary_20260328_130525.html
+2026-03-28 13:05:25,057 - __main__ - INFO - ✅ Created incident report: incident_analysis_20260328_130525.html
+2026-03-28 13:05:25,073 - __main__ - INFO - ✅ Created network report: network_analysis_20260328_130525.html
+2026-03-28 13:05:25,095 - __main__ - INFO - ✅ Created audit report: security_audit_20260328_130525.html
+2026-03-28 13:05:25,104 - __main__ - INFO - ✅ Created health report: system_health_20260328_130525.html
+2026-03-28 13:05:25,104 - __main__ - INFO - ✅ Successfully generated 5 initial security reports
+2026-03-28 13:05:25,294 - __main__ - ERROR - ❌ Could not import make_layout: attempted relative import with no known parent package
+2026-03-28 13:05:25,294 - __main__ - ERROR - ❌ Could not import register_callbacks: attempted relative import with no known parent package
+2026-03-28 13:05:25,294 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2026-03-28 13:05:25,310 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.8.12:8050
+2026-03-28 13:05:25,310 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-28 13:05:25,582 - __main__ - INFO - Real event generated: EVT-000001 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:05:26,189 - __main__ - INFO - Real event generated: EVT-000002 - PORT_SCAN
+2026-03-28 13:05:26,746 - __main__ - INFO - Real event generated: EVT-000003 - MALWARE_DETECTION
+2026-03-28 13:05:27,302 - __main__ - INFO - Real event generated: EVT-000004 - DATA_EXFILTRATION
+2026-03-28 13:05:30,014 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:05:35,019 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:05:40,026 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:05:45,033 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:05:50,040 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:05:55,046 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:05:55,982 - __main__ - INFO - Real event generated: EVT-000005 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:06:00,053 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:06:05,069 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:06:10,080 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:06:10,686 - __main__ - INFO - Real event generated: EVT-000006 - PORT_SCAN
+2026-03-28 13:06:15,092 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:06:20,096 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:06:25,107 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:06:29,381 - __main__ - INFO - Real event generated: EVT-000007 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:06:30,112 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:06:31,055 - __main__ - INFO - Live network capture stopped
+2026-03-28 13:06:31,662 - __main__ - INFO - Live network capture stopped
+2026-03-28 13:06:31,662 - __main__ - INFO - Live system monitor stopped
+2026-03-28 13:25:53,107 - __main__ - INFO - ✅ Users database initialized successfully
+2026-03-28 13:25:53,130 - __main__ - INFO - 📋 Reports table exists, checking schema...
+2026-03-28 13:25:53,130 - __main__ - INFO - Database initialized successfully
+2026-03-28 13:25:53,130 - __main__ - INFO - Current incidents table columns: ['id', 'created_at', 'updated_at', 'title', 'description', 'severity', 'status', 'assigned_to', 'alert_count', 'resolution', 'closed_at', 'category', 'priority', 'risk_score', 'affected_hosts', 'business_impact', 'data_compromised', 'financial_impact', 'last_update_time', 'start_time', 'max_severity', 'summary', 'related_alerts', 'report_sha256']
+2026-03-28 13:25:53,130 - __main__ - INFO - Updated incidents table columns: ['id', 'created_at', 'updated_at', 'title', 'description', 'severity', 'status', 'assigned_to', 'alert_count', 'resolution', 'closed_at', 'category', 'priority', 'risk_score', 'affected_hosts', 'business_impact', 'data_compromised', 'financial_impact', 'last_update_time', 'start_time', 'max_severity', 'summary', 'related_alerts', 'report_sha256']
+2026-03-28 13:25:53,130 - __main__ - INFO - ✅ All incidents have last_update_time values
+2026-03-28 13:25:53,130 - __main__ - INFO - ✅ Data tables verified and ready
+2026-03-28 13:25:53,130 - __main__ - INFO - ✅ Embedded security systems initialized
+2026-03-28 13:25:53,130 - __main__ - INFO - Integrity tables verified/created
+2026-03-28 13:25:53,130 - __main__ - INFO - Live network capture started on Ethernet
+2026-03-28 13:25:53,139 - __main__ - INFO - Live system monitor started
+2026-03-28 13:25:53,139 - __main__ - INFO - Live security event collector started
+2026-03-28 13:25:53,139 - __main__ - INFO - All live collectors started
+2026-03-28 13:25:53,139 - __main__ - INFO - 📋 Checking users configuration: 3 users found
+2026-03-28 13:25:53,139 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:25:53,139 - __main__ - INFO - 🛡️  Starting file integrity monitoring...
+2026-03-28 13:25:53,139 - __main__ - INFO - ✅ Security monitoring started
+2026-03-28 13:25:53,139 - __main__ - INFO - 🛡️  Starting file integrity monitoring...
+2026-03-28 13:25:53,139 - __main__ - INFO - File integrity monitoring started
+2026-03-28 13:25:53,139 - __main__ - INFO - 📊 Generating initial security reports...
+2026-03-28 13:25:53,162 - __main__ - INFO - Reports table schema - has_uuid: True, has_old_id: False
+2026-03-28 13:25:53,162 - __main__ - CRITICAL - 🚨 File tampering detected: data\security.db
+2026-03-28 13:25:53,163 - __main__ - CRITICAL - 🚨 File tampering detected: data\security.db
+2026-03-28 13:25:58,151 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:25:58,513 - __main__ - ERROR - Error generating initial reports: database is locked
+2026-03-28 13:25:58,513 - __main__ - ERROR - Error storing tampering alert: database is locked
+2026-03-28 13:25:58,552 - __main__ - INFO - Real event generated: EVT-000001 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:25:58,619 - __main__ - ERROR - ❌ Could not import make_layout: attempted relative import with no known parent package
+2026-03-28 13:25:58,631 - __main__ - ERROR - ❌ Could not import register_callbacks: attempted relative import with no known parent package
+2026-03-28 13:25:58,646 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2026-03-28 13:25:58,646 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.8.12:8050
+2026-03-28 13:25:58,646 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-28 13:26:03,152 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:04,118 - __main__ - ERROR - Error storing tampering alert: database is locked
+2026-03-28 13:26:04,136 - __main__ - INFO - Real event generated: EVT-000002 - PORT_SCAN
+2026-03-28 13:26:04,762 - __main__ - INFO - Real event generated: EVT-000003 - MALWARE_DETECTION
+2026-03-28 13:26:05,306 - __main__ - INFO - Real event generated: EVT-000004 - DATA_EXFILTRATION
+2026-03-28 13:26:08,154 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:13,162 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:18,167 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:23,173 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:24,008 - __main__ - INFO - Real event generated: EVT-000005 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:26:28,175 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:33,180 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:38,182 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:39,758 - __main__ - INFO - Real event generated: EVT-000006 - PORT_SCAN
+2026-03-28 13:26:43,195 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:48,199 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:53,204 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:26:54,393 - __main__ - INFO - Real event generated: EVT-000007 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:26:58,210 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:03,216 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:08,217 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:13,230 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:18,246 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:23,253 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:24,209 - __main__ - INFO - Real event generated: EVT-000008 - DATA_EXFILTRATION
+2026-03-28 13:27:25,952 - __main__ - INFO - Real event generated: EVT-000009 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:27:26,520 - __main__ - INFO - Real event generated: EVT-000010 - PORT_SCAN
+2026-03-28 13:27:28,259 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:33,266 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:38,270 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:43,281 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:48,288 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:53,297 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:27:54,272 - __main__ - INFO - Real event generated: EVT-000011 - MALWARE_DETECTION
+2026-03-28 13:27:55,979 - __main__ - INFO - Real event generated: EVT-000012 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:27:58,305 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:03,314 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:08,329 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:11,705 - __main__ - INFO - Real event generated: EVT-000013 - PORT_SCAN
+2026-03-28 13:28:13,342 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:18,350 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:23,359 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:26,423 - __main__ - INFO - Real event generated: EVT-000014 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:28:28,369 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:33,381 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:38,390 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:43,407 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:48,414 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:53,428 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:28:54,337 - __main__ - INFO - Real event generated: EVT-000015 - DATA_EXFILTRATION
+2026-03-28 13:28:56,956 - __main__ - INFO - Real event generated: EVT-000016 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:28:57,532 - __main__ - INFO - Real event generated: EVT-000017 - PORT_SCAN
+2026-03-28 13:28:58,429 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:03,445 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:08,450 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:13,458 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:18,467 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:23,469 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:27,411 - __main__ - INFO - Real event generated: EVT-000018 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:29:28,476 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:33,480 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:38,486 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:42,093 - __main__ - INFO - Real event generated: EVT-000019 - PORT_SCAN
+2026-03-28 13:29:43,495 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:48,497 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:53,501 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:29:54,782 - __main__ - INFO - Real event generated: EVT-000020 - MALWARE_DETECTION
+2026-03-28 13:29:57,380 - __main__ - INFO - Real event generated: EVT-000021 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:29:58,506 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:03,517 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:08,529 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:13,541 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:18,554 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:23,562 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:25,221 - __main__ - INFO - Real event generated: EVT-000022 - DATA_EXFILTRATION
+2026-03-28 13:30:27,820 - __main__ - INFO - Real event generated: EVT-000023 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:30:28,412 - __main__ - INFO - Real event generated: EVT-000024 - PORT_SCAN
+2026-03-28 13:30:28,569 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:33,572 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:38,583 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:43,601 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:48,619 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:53,631 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:30:58,275 - __main__ - INFO - Real event generated: EVT-000025 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:30:58,646 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:03,649 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:08,660 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:13,020 - __main__ - INFO - Real event generated: EVT-000026 - PORT_SCAN
+2026-03-28 13:31:13,673 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:18,681 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:23,690 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:28,695 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:28,735 - __main__ - INFO - Real event generated: EVT-000027 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:31:33,711 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:38,726 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:43,744 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:48,745 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:53,753 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:31:55,547 - __main__ - INFO - Real event generated: EVT-000028 - MALWARE_DETECTION
+2026-03-28 13:31:56,114 - __main__ - INFO - Real event generated: EVT-000029 - DATA_EXFILTRATION
+2026-03-28 13:31:58,755 - __main__ - INFO - Real event generated: EVT-000030 - PORT_SCAN
+2026-03-28 13:31:58,756 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:00,314 - __main__ - INFO - Real event generated: EVT-000031 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:32:03,760 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:08,768 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:13,776 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:18,783 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:23,797 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:28,804 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:31,455 - __main__ - INFO - Real event generated: EVT-000032 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:32:33,809 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:38,813 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:43,814 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:44,131 - __main__ - INFO - Real event generated: EVT-000033 - PORT_SCAN
+2026-03-28 13:32:48,826 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:53,828 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:32:58,836 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:01,852 - __main__ - INFO - Real event generated: EVT-000034 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:33:03,844 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:08,855 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:13,861 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:18,863 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:23,867 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:25,523 - __main__ - INFO - Real event generated: EVT-000035 - DATA_EXFILTRATION
+2026-03-28 13:33:28,870 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:30,468 - __main__ - INFO - Real event generated: EVT-000036 - PORT_SCAN
+2026-03-28 13:33:32,175 - __main__ - INFO - Real event generated: EVT-000037 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:33:33,878 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:38,881 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:43,886 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:48,902 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:53,909 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:33:55,908 - __main__ - INFO - Real event generated: EVT-000038 - MALWARE_DETECTION
+2026-03-28 13:33:58,912 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:02,535 - __main__ - INFO - Real event generated: EVT-000039 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:34:03,928 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:08,941 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:13,953 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:15,259 - __main__ - INFO - Real event generated: EVT-000040 - PORT_SCAN
+2026-03-28 13:34:18,957 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:23,959 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:28,967 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:32,969 - __main__ - INFO - Real event generated: EVT-000041 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:34:33,970 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:38,981 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:43,986 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:49,009 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:54,015 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:34:55,713 - __main__ - INFO - Real event generated: EVT-000042 - DATA_EXFILTRATION
+2026-03-28 13:34:59,017 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:00,309 - __main__ - INFO - Real event generated: EVT-000043 - PORT_SCAN
+2026-03-28 13:35:03,958 - __main__ - INFO - Real event generated: EVT-000044 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:35:04,026 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:09,031 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:14,038 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:19,050 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:24,064 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:29,070 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:34,075 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:34,738 - __main__ - INFO - Real event generated: EVT-000045 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:35:39,090 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:44,101 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:45,478 - __main__ - INFO - Real event generated: EVT-000046 - PORT_SCAN
+2026-03-28 13:35:49,106 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:54,112 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:35:56,125 - __main__ - INFO - Real event generated: EVT-000047 - MALWARE_DETECTION
+2026-03-28 13:35:59,127 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:04,130 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:04,769 - __main__ - INFO - Real event generated: EVT-000048 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:36:09,145 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:14,150 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:19,158 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:24,171 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:26,558 - __main__ - INFO - Real event generated: EVT-000049 - DATA_EXFILTRATION
+2026-03-28 13:36:29,173 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:31,226 - __main__ - INFO - Real event generated: EVT-000050 - PORT_SCAN
+2026-03-28 13:36:34,190 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:34,826 - __main__ - INFO - Real event generated: EVT-000051 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:36:39,196 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:44,202 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:49,208 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:54,212 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:36:59,218 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:04,221 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:05,594 - __main__ - INFO - Real event generated: EVT-000052 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:37:09,239 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:14,241 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:16,288 - __main__ - INFO - Real event generated: EVT-000053 - PORT_SCAN
+2026-03-28 13:37:19,252 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:24,267 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:29,268 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:34,272 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:36,040 - __main__ - INFO - Real event generated: EVT-000054 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:37:39,279 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:44,290 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:49,297 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:54,305 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:37:56,755 - __main__ - INFO - Real event generated: EVT-000055 - MALWARE_DETECTION
+2026-03-28 13:37:57,332 - __main__ - INFO - Real event generated: EVT-000056 - DATA_EXFILTRATION
+2026-03-28 13:37:59,318 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:01,954 - __main__ - INFO - Real event generated: EVT-000057 - PORT_SCAN
+2026-03-28 13:38:04,323 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:06,577 - __main__ - INFO - Real event generated: EVT-000058 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:38:09,332 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:14,347 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:19,352 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:24,361 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:29,366 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:34,373 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:37,396 - __main__ - INFO - Real event generated: EVT-000059 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:38:39,377 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:44,384 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:47,030 - __main__ - INFO - Real event generated: EVT-000060 - PORT_SCAN
+2026-03-28 13:38:49,386 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:54,399 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:38:59,404 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:04,418 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:07,863 - __main__ - INFO - Real event generated: EVT-000061 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:39:09,429 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:14,431 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:19,446 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:24,456 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:27,577 - __main__ - INFO - Real event generated: EVT-000062 - DATA_EXFILTRATION
+2026-03-28 13:39:29,464 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:32,233 - __main__ - INFO - Real event generated: EVT-000063 - PORT_SCAN
+2026-03-28 13:39:34,468 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:37,294 - __main__ - INFO - Real event generated: EVT-000064 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:39:39,471 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:44,478 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:49,487 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:54,495 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:39:57,027 - __main__ - INFO - Real event generated: EVT-000065 - MALWARE_DETECTION
+2026-03-28 13:39:59,498 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:04,504 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:08,861 - __main__ - INFO - Real event generated: EVT-000066 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:40:09,518 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:14,521 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:17,555 - __main__ - INFO - Real event generated: EVT-000067 - PORT_SCAN
+2026-03-28 13:40:19,524 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:24,540 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:29,549 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:34,553 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:39,257 - __main__ - INFO - Real event generated: EVT-000068 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:40:39,558 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:44,565 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:49,576 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:54,586 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:40:57,969 - __main__ - INFO - Real event generated: EVT-000069 - DATA_EXFILTRATION
+2026-03-28 13:40:59,591 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:02,534 - __main__ - INFO - Real event generated: EVT-000070 - PORT_SCAN
+2026-03-28 13:41:04,601 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:09,608 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:10,650 - __main__ - INFO - Real event generated: EVT-000071 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:41:14,612 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:19,619 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:24,625 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:29,630 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:34,632 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:39,638 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:40,418 - __main__ - INFO - Real event generated: EVT-000072 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:41:44,641 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:48,091 - __main__ - INFO - Real event generated: EVT-000073 - PORT_SCAN
+2026-03-28 13:41:49,648 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:54,652 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:41:57,823 - __main__ - INFO - Real event generated: EVT-000074 - MALWARE_DETECTION
+2026-03-28 13:41:59,661 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:04,671 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:09,674 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:10,528 - __main__ - INFO - Real event generated: EVT-000075 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:42:14,677 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:19,685 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:24,690 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:28,177 - __main__ - INFO - Real event generated: EVT-000076 - DATA_EXFILTRATION
+2026-03-28 13:42:29,696 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:33,254 - __main__ - INFO - Real event generated: EVT-000077 - PORT_SCAN
+2026-03-28 13:42:34,699 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:39,704 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:40,949 - __main__ - INFO - Real event generated: EVT-000078 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:42:44,712 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:49,717 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:54,723 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:42:59,725 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:04,736 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:09,742 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:11,715 - __main__ - INFO - Real event generated: EVT-000079 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:43:14,744 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:19,306 - __main__ - INFO - Real event generated: EVT-000080 - PORT_SCAN
+2026-03-28 13:43:19,756 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:24,772 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:29,774 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:34,783 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:39,792 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:42,024 - __main__ - INFO - Real event generated: EVT-000081 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:43:44,808 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:49,820 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:54,837 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:43:58,691 - __main__ - INFO - Real event generated: EVT-000082 - MALWARE_DETECTION
+2026-03-28 13:43:59,270 - __main__ - INFO - Real event generated: EVT-000083 - DATA_EXFILTRATION
+2026-03-28 13:43:59,841 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:04,846 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:04,901 - __main__ - INFO - Real event generated: EVT-000084 - PORT_SCAN
+2026-03-28 13:44:09,859 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:12,592 - __main__ - INFO - Real event generated: EVT-000085 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:44:14,860 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:19,864 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:24,880 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:29,894 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:34,899 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:39,909 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:43,372 - __main__ - INFO - Real event generated: EVT-000086 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:44:44,913 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:49,916 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:50,035 - __main__ - INFO - Real event generated: EVT-000087 - PORT_SCAN
+2026-03-28 13:44:54,921 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:44:59,924 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:04,930 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:09,943 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:13,827 - __main__ - INFO - Real event generated: EVT-000088 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:45:14,958 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:19,973 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:24,984 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:29,500 - __main__ - INFO - Real event generated: EVT-000089 - DATA_EXFILTRATION
+2026-03-28 13:45:29,989 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:35,004 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:35,120 - __main__ - INFO - Real event generated: EVT-000090 - PORT_SCAN
+2026-03-28 13:45:40,013 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:43,786 - __main__ - INFO - Real event generated: EVT-000091 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:45:45,026 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:50,031 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:55,037 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:45:59,440 - __main__ - INFO - Real event generated: EVT-000092 - MALWARE_DETECTION
+2026-03-28 13:46:00,049 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:05,064 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:10,070 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:14,226 - __main__ - INFO - Real event generated: EVT-000093 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:46:15,077 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:20,083 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:20,884 - __main__ - INFO - Real event generated: EVT-000094 - PORT_SCAN
+2026-03-28 13:46:25,086 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:30,092 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:35,096 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:40,101 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:44,661 - __main__ - INFO - Real event generated: EVT-000095 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:46:45,109 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:50,113 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:46:55,121 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:00,132 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:00,355 - __main__ - INFO - Real event generated: EVT-000096 - DATA_EXFILTRATION
+2026-03-28 13:47:05,139 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:06,012 - __main__ - INFO - Real event generated: EVT-000097 - PORT_SCAN
+2026-03-28 13:47:10,148 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:14,719 - __main__ - INFO - Real event generated: EVT-000098 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:47:15,174 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:20,176 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:25,185 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:30,192 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:35,197 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:40,202 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:45,208 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:45,544 - __main__ - INFO - Real event generated: EVT-000099 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:47:50,213 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:51,239 - __main__ - INFO - Real event generated: EVT-000100 - PORT_SCAN
+2026-03-28 13:47:55,218 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:47:59,980 - __main__ - INFO - Real event generated: EVT-000101 - MALWARE_DETECTION
+2026-03-28 13:48:00,226 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:05,241 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:10,247 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:15,261 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:15,691 - __main__ - INFO - Real event generated: EVT-000102 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:48:20,262 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:25,267 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:30,272 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:31,324 - __main__ - INFO - Real event generated: EVT-000103 - DATA_EXFILTRATION
+2026-03-28 13:48:35,278 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:36,998 - __main__ - INFO - Real event generated: EVT-000104 - PORT_SCAN
+2026-03-28 13:48:40,290 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:45,305 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:46,712 - __main__ - INFO - Real event generated: EVT-000105 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:48:50,312 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:48:55,317 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:00,333 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:05,337 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:10,342 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:15,357 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:17,450 - __main__ - INFO - Real event generated: EVT-000106 - BRUTE_FORCE_ATTEMPT
+2026-03-28 13:49:20,359 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:22,064 - __main__ - INFO - Real event generated: EVT-000107 - PORT_SCAN
+2026-03-28 13:49:25,368 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:30,387 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:35,391 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:40,398 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 13:49:41,384 - __main__ - INFO - Live network capture stopped
+2026-03-28 13:49:42,575 - __main__ - INFO - Live network capture stopped
+2026-03-28 13:49:42,575 - __main__ - INFO - Live system monitor stopped
+2026-03-28 14:07:03,044 - __main__ - INFO - ✅ Users database initialized successfully
+2026-03-28 14:07:03,062 - __main__ - INFO - 📋 Reports table exists, checking schema...
+2026-03-28 14:07:03,062 - __main__ - INFO - Database initialized successfully
+2026-03-28 14:07:03,062 - __main__ - INFO - Current incidents table columns: ['id', 'created_at', 'updated_at', 'title', 'description', 'severity', 'status', 'assigned_to', 'alert_count', 'resolution', 'closed_at', 'category', 'priority', 'risk_score', 'affected_hosts', 'business_impact', 'data_compromised', 'financial_impact', 'last_update_time', 'start_time', 'max_severity', 'summary', 'related_alerts', 'report_sha256']
+2026-03-28 14:07:03,062 - __main__ - INFO - Updated incidents table columns: ['id', 'created_at', 'updated_at', 'title', 'description', 'severity', 'status', 'assigned_to', 'alert_count', 'resolution', 'closed_at', 'category', 'priority', 'risk_score', 'affected_hosts', 'business_impact', 'data_compromised', 'financial_impact', 'last_update_time', 'start_time', 'max_severity', 'summary', 'related_alerts', 'report_sha256']
+2026-03-28 14:07:03,062 - __main__ - INFO - ✅ All incidents have last_update_time values
+2026-03-28 14:07:03,062 - __main__ - INFO - ✅ Data tables verified and ready
+2026-03-28 14:07:03,076 - __main__ - INFO - ✅ Embedded security systems initialized
+2026-03-28 14:07:03,076 - __main__ - INFO - Integrity tables verified/created
+2026-03-28 14:07:03,076 - __main__ - INFO - Live network capture started on Ethernet
+2026-03-28 14:07:03,076 - __main__ - INFO - Live system monitor started
+2026-03-28 14:07:03,076 - __main__ - INFO - Live security event collector started
+2026-03-28 14:07:03,076 - __main__ - INFO - All live collectors started
+2026-03-28 14:07:03,076 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:03,076 - __main__ - INFO - 📋 Checking users configuration: 3 users found
+2026-03-28 14:07:03,076 - __main__ - INFO - 🛡️  Starting file integrity monitoring...
+2026-03-28 14:07:03,076 - __main__ - INFO - ✅ Security monitoring started
+2026-03-28 14:07:03,091 - __main__ - INFO - 🛡️  Starting file integrity monitoring...
+2026-03-28 14:07:03,091 - __main__ - INFO - File integrity monitoring started
+2026-03-28 14:07:03,091 - __main__ - INFO - 📊 Generating initial security reports...
+2026-03-28 14:07:03,091 - __main__ - INFO - Reports table schema - has_uuid: True, has_old_id: False
+2026-03-28 14:07:03,123 - __main__ - INFO - ✅ Created daily report: daily_summary_20260328_140703.html
+2026-03-28 14:07:03,141 - __main__ - INFO - ✅ Created incident report: incident_analysis_20260328_140703.html
+2026-03-28 14:07:03,155 - __main__ - INFO - ✅ Created network report: network_analysis_20260328_140703.html
+2026-03-28 14:07:03,170 - __main__ - INFO - ✅ Created audit report: security_audit_20260328_140703.html
+2026-03-28 14:07:03,188 - __main__ - INFO - ✅ Created health report: system_health_20260328_140703.html
+2026-03-28 14:07:03,188 - __main__ - INFO - ✅ Successfully generated 5 initial security reports
+2026-03-28 14:07:03,218 - __main__ - ERROR - ❌ Could not import make_layout: attempted relative import with no known parent package
+2026-03-28 14:07:03,218 - __main__ - ERROR - ❌ Could not import register_callbacks: attempted relative import with no known parent package
+2026-03-28 14:07:03,234 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2026-03-28 14:07:03,741 - __main__ - INFO - Real event generated: EVT-000001 - BRUTE_FORCE_ATTEMPT
+2026-03-28 14:07:04,331 - __main__ - INFO - Real event generated: EVT-000002 - PORT_SCAN
+2026-03-28 14:07:04,485 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.8.11:8050
+2026-03-28 14:07:04,485 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-28 14:07:04,897 - __main__ - INFO - Real event generated: EVT-000003 - MALWARE_DETECTION
+2026-03-28 14:07:05,503 - __main__ - INFO - Real event generated: EVT-000004 - DATA_EXFILTRATION
+2026-03-28 14:07:08,097 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:13,112 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:18,124 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:23,128 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:28,133 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:33,137 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:34,327 - __main__ - INFO - Real event generated: EVT-000005 - BRUTE_FORCE_ATTEMPT
+2026-03-28 14:07:38,146 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:43,154 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:48,168 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:49,160 - __main__ - INFO - Real event generated: EVT-000006 - PORT_SCAN
+2026-03-28 14:07:53,170 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:07:58,184 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:03,190 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:04,926 - __main__ - INFO - Real event generated: EVT-000007 - BRUTE_FORCE_ATTEMPT
+2026-03-28 14:08:08,193 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:13,200 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:18,203 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:23,216 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:28,217 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:33,221 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:34,741 - __main__ - INFO - Real event generated: EVT-000008 - PORT_SCAN
+2026-03-28 14:08:35,403 - __main__ - INFO - Real event generated: EVT-000009 - DATA_EXFILTRATION
+2026-03-28 14:08:37,010 - __main__ - INFO - Real event generated: EVT-000010 - BRUTE_FORCE_ATTEMPT
+2026-03-28 14:08:38,235 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:43,246 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:48,263 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:53,274 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:08:58,282 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:03,295 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:03,870 - __main__ - INFO - Real event generated: EVT-000011 - MALWARE_DETECTION
+2026-03-28 14:09:07,460 - __main__ - INFO - Real event generated: EVT-000012 - BRUTE_FORCE_ATTEMPT
+2026-03-28 14:09:08,298 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:13,316 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:18,332 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:20,118 - __main__ - INFO - Real event generated: EVT-000013 - PORT_SCAN
+2026-03-28 14:09:23,350 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:28,367 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:33,370 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:37,999 - __main__ - INFO - Real event generated: EVT-000014 - BRUTE_FORCE_ATTEMPT
+2026-03-28 14:09:38,380 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:43,399 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:48,422 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:53,423 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:09:58,430 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:03,438 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:04,796 - __main__ - INFO - Real event generated: EVT-000015 - DATA_EXFILTRATION
+2026-03-28 14:10:06,404 - __main__ - INFO - Real event generated: EVT-000016 - PORT_SCAN
+2026-03-28 14:10:07,998 - __main__ - INFO - Real event generated: EVT-000017 - BRUTE_FORCE_ATTEMPT
+2026-03-28 14:10:08,444 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:13,447 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:18,453 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:23,455 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:28,465 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:33,477 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:38,490 - __main__ - ERROR - Windows event collection error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2026-03-28 14:10:38,836 - __main__ - INFO - Real event generated: EVT-000018 - BRUTE_FORCE_ATTEMPT
+2026-03-28 14:10:41,274 - __main__ - INFO - Live network capture stopped

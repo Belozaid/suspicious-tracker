@@ -1,0 +1,97 @@
+{
+  "app_title": "لوحة تحكم مركز العمليات الأمنية",
+  "language": "اللغة",
+  "overview": "نظرة عامة",
+  "alerts": "التنبيهات",
+  "incidents": "الحوادث",
+  "features": "المؤشرات",
+  "charts": "الرسوم البيانية",
+  "events": "الأحداث",
+  "reports": "التقارير",
+  "audit": "سجلات التدقيق",
+  "integrity": "سلامة البيانات",
+  "health": "صحة النظام",
+  "refresh": "تحديث تلقائي",
+  "kpi_cards": {
+    "events_5m": "الأحداث (آخر 5 دقائق)",
+    "alerts_24h": "التنبيهات (آخر 24 ساعة)",
+    "open_incidents": "الحوادث المفتوحة",
+    "max_severity": "أعلى خطورة (مفتوحة)"
+  },
+  "tables": {
+    "latest_alerts": "آخر التنبيهات",
+    "latest_incidents": "آخر الحوادث",
+    "latest_features": "آخر المؤشرات",
+    "latest_events": "آخر الأحداث",
+    "latest_reports": "آخر التقارير"
+  },
+  "filters": {
+    "all": "الكل",
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة"
+  },
+  "charts_titles": {
+    "failed_logins": "محاولات تسجيل الدخول الفاشلة (آخر 15 دقيقة)",
+    "outbound_connections": "الاتصالات الصادرة (آخر 15 دقيقة)",
+    "suspicious_processes": "العمليات المشبوهة (آخر 15 دقيقة)",
+    "network_connections": "اتصالات الشبكة (آخر 15 دقيقة)"
+  },
+  "status": {
+    "open": "مفتوحة",
+    "investigating": "قيد التحقيق",
+    "contained": "محصورة",
+    "resolved": "محلولة",
+    "new": "جديدة",
+    "in_progress": "قيد التنفيذ",
+    "false_positive": "إنذار خاطئ"
+  },
+  "actions": {
+    "view_details": "عرض التفاصيل",
+    "export": "تصدير",
+    "refresh": "تحديث",
+    "filter": "تصفية",
+    "download": "تنزيل"
+  },
+  "messages": {
+    "loading": "جاري التحميل...",
+    "no_data": "لا توجد بيانات",
+    "error": "حدث خطأ",
+    "success": "تم بنجاح"
+  }
+    "ai": "تحليلات الذكاء الاصطناعي",
+  "tables": {
+    "latest_alerts": "آخر التنبيهات",
+    "latest_incidents": "آخر الحوادث",
+    "latest_features": "آخر المؤشرات",
+    "latest_events": "آخر الأحداث",
+    "latest_reports": "آخر التقارير",
+    "latest_ai": "آخر نتائج الذكاء الاصطناعي"
+  },
+  "ai_page": {
+    "title": "كشف الشذوذ بالذكاء الاصطناعي",
+    "chart_title": "درجة الشذوذ (آخر 15 دقيقة)",
+    "threshold_line": "الحد ({value})",
+    "model_status": "حالة النموذج",
+    "trained": "مدرب",
+    "not_trained": "غير مدرب",
+    "trained_at": "وقت التدريب",
+    "samples": "عينات التدريب",
+    "features": "المؤشرات"
+  }
+    "incident_details": "تفاصيل الحادثة",
+  "kpis": "مؤشرات الأداء",
+  "phase5": {
+    "threat_score": "درجة الخطورة",
+    "scenario": "سيناريو الترابط",
+    "confidence": "درجة الثقة",
+    "mitre": "تصنيف MITRE",
+    "workflow": "سير العمل",
+    "score_breakdown": "تفصيل الدرجة",
+    "assign_owner": "تعيين مالك",
+    "set_status": "تحديث الحالة",
+    "add_note": "إضافة ملاحظة",
+    "close_reason": "سبب الإغلاق",
+    "export_json": "تصدير JSON"
+  }
+}

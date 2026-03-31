@@ -1,0 +1,97 @@
+{
+  "app_title": "Enterprise SOC Dashboard",
+  "language": "Language",
+  "overview": "Overview",
+  "alerts": "Alerts",
+  "incidents": "Incidents",
+  "features": "Features",
+  "charts": "Charts",
+  "events": "Events",
+  "reports": "Reports",
+  "audit": "Audit Log",
+  "integrity": "Integrity",
+  "health": "System Health",
+  "refresh": "Auto refresh",
+  "kpi_cards": {
+    "events_5m": "Events (last 5 min)",
+    "alerts_24h": "Alerts (last 24h)",
+    "open_incidents": "Open incidents",
+    "max_severity": "Max severity (open)"
+  },
+  "tables": {
+    "latest_alerts": "Latest Alerts",
+    "latest_incidents": "Latest Incidents",
+    "latest_features": "Latest Features",
+    "latest_events": "Latest Events",
+    "latest_reports": "Latest Reports"
+  },
+  "filters": {
+    "all": "ALL",
+    "high": "HIGH",
+    "medium": "MEDIUM",
+    "low": "LOW"
+  },
+  "charts_titles": {
+    "failed_logins": "Failed Logins (last 15 min)",
+    "outbound_connections": "Outbound Connections (last 15 min)",
+    "suspicious_processes": "Suspicious Processes (last 15 min)",
+    "network_connections": "Network Connections (last 15 min)"
+  },
+  "status": {
+    "open": "OPEN",
+    "investigating": "INVESTIGATING",
+    "contained": "CONTAINED",
+    "resolved": "RESOLVED",
+    "new": "NEW",
+    "in_progress": "IN PROGRESS",
+    "false_positive": "FALSE POSITIVE"
+  },
+  "actions": {
+    "view_details": "View Details",
+    "export": "Export",
+    "refresh": "Refresh",
+    "filter": "Filter",
+    "download": "Download"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "no_data": "No data",
+    "error": "Error occurred",
+    "success": "Success"
+  }
+    "ai": "AI Analytics",
+  "tables": {
+    "latest_alerts": "Latest Alerts",
+    "latest_incidents": "Latest Incidents",
+    "latest_features": "Latest Features",
+    "latest_events": "Latest Events",
+    "latest_reports": "Latest Reports",
+    "latest_ai": "Latest AI Scores"
+  },
+  "ai_page": {
+    "title": "AI Anomaly Detection",
+    "chart_title": "Anomaly Score Over Time (Last 15 min)",
+    "threshold_line": "Threshold ({value})",
+    "model_status": "Model Status",
+    "trained": "Trained",
+    "not_trained": "Not Trained",
+    "trained_at": "Trained at",
+    "samples": "Training samples",
+    "features": "Features"
+  }
+    "incident_details": "Incident Details",
+  "kpis": "KPIs",
+  "phase5": {
+    "threat_score": "Threat Score",
+    "scenario": "Correlated Scenario",
+    "confidence": "Confidence",
+    "mitre": "MITRE Mapping",
+    "workflow": "Workflow",
+    "score_breakdown": "Score Breakdown",
+    "assign_owner": "Assign Owner",
+    "set_status": "Set Status",
+    "add_note": "Add Note",
+    "close_reason": "Close Reason",
+    "export_json": "Export JSON"
+  }
+}

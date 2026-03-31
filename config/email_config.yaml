@@ -1,0 +1,8 @@
+enable_ssl: false
+enable_tls: true
+receiver_emails: []
+sender_email: ''
+sender_password: ''
+smtp_port: 587
+smtp_server: smtp.gmail.com
+test_mode: true

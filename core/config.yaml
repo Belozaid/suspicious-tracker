@@ -1,0 +1,338 @@
+# config.yaml كامل
+app:
+  name: "Security Monitoring System"
+  version: "2.0.0"
+  db_path: "data/security.db"
+  log_path: "logs/security_monitor.log"
+  poll_seconds: 2
+  feature_window_seconds: 60
+  detection_interval_seconds: 60
+
+dashboard:
+  host: "0.0.0.0"
+  port: 8050
+  debug: false
+  auth_enabled: true
+  auth_user: "admin"
+  auth_password: "${DASH_AUTH_PASSWORD}"
+  session_timeout: 3600
+  
+  # نظام RBAC متعدد المستخدمين
+  users:
+    - username: "viewer"
+      password: "viewer123"
+      role: "VIEWER"
+      full_name: "Viewer User"
+      email: "viewer@company.com"
+      
+    - username: "analyst"
+      password: "analyst123"
+      role: "ANALYST"
+      full_name: "Security Analyst"
+      email: "analyst@company.com"
+      
+    - username: "admin"
+      password: "Belo2026"
+      role: "ADMIN"
+      full_name: "System Administrator"
+      email: "admin@company.com"
+rbac:
+  users:
+    - username: "viewer"
+      password: "viewer123"
+      role: "VIEWER"
+      full_name: "Viewer User"
+      email: "viewer@company.com"
+    - username: "analyst"
+      password: "analyst123"
+      role: "ANALYST"
+      full_name: "Security Analyst"
+      email: "analyst@company.com"
+    - username: "admin"
+      password: "${DASH_AUTH_PASSWORD}"
+      role: "ADMIN"
+      full_name: "System Administrator"
+      email: "admin@company.com"
+
+live_monitoring:
+  enabled: true
+  update_interval_ms: 2000
+  collect_system_metrics: true
+  collect_network_stats: true
+  collect_security_events: true
+
+alerting:
+  email_enabled: false
+  sound_alerts: true
+  notification_level: "MEDIUM"
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  email_from: ""
+  email_to: ""
+  smtp_password: "${SMTP_PASSWORD}"
+
+detection:
+  enabled: true
+  min_severity: "MEDIUM"
+  auto_create_incidents: true
+
+collectors:
+  process: true
+  network: true
+  eventlog: true
+  login: true
+
+incidents:
+  auto_close_days: 7
+  max_open_incidents: 100
+
+phase6:
+  enable_integrity_hashing: true
+  enable_system_metrics: true
+  metrics_interval_seconds: 30
+  enable_crash_safe: true
+  max_retries: 5
+  backoff_base: 2
+  
+# ===== PHASE 8: EVALUATION, TUNING & FINAL DELIVERY =====
+phase8:
+  # --------------------------------------------
+  # Tuning Profile Integration
+  # --------------------------------------------
+  tuning:
+    enabled: true
+    profiles_file: "tuning/tuning_profiles.yaml"
+    active_profile: "SME_Default"  # يمكن تغييره لـ: Lab_Demo, High_Security, Low_FP
+    auto_apply: true
+    
+    # Override individual thresholds (optional)
+    overrides:
+      enabled: false
+      rules:
+        brute_force_failed_logins: 5
+      ai:
+        anomaly_threshold: 0.65
+  
+  # --------------------------------------------
+  # Evaluation Harness Configuration
+  # --------------------------------------------
+  evaluation:
+    enabled: true
+    output_dir: "evaluation"
+    reports_dir: "evaluation/reports"
+    
+    # Scenarios to run
+    scenarios:
+      - "brute_force"
+      - "ai_anomaly"
+      - "response_time"
+      - "resource_usage"
+      - "false_positives"
+    
+    # Time windows for evaluation
+    windows:
+      brute_force_days: 7
+      ai_scores_days: 7
+      incidents_days: 30
+      metrics_days: 1
+    
+    # Pass/Fail criteria (KPIs)
+    kpi_thresholds:
+      min_detection_rate: 70        # % - الحد الأدنى المقبول
+      max_fp_rate: 15                # % - الحد الأقصى للـ False Positives
+      max_mttr_seconds: 300          # 5 دقائق كحد أقصى
+      min_confidence: 60              # % - الحد الأدنى للثقة
+      max_cpu_percent: 30             # % - استخدام المعالج
+      max_memory_percent: 40          # % - استخدام الذاكرة
+  
+  # --------------------------------------------
+  # Release Pack Configuration
+  # --------------------------------------------
+  release:
+    version: "1.0.0"
+    output_dir: "release"
+    include_paths:
+      - "main.py"
+      - "app.py"
+      - "core/"
+      - "collectors/"
+      - "detection/"
+      - "incidents/"
+      - "preprocessing/"
+      - "storage/"
+      - "monitoring/"
+      - "dashboard/"
+      - "tuning/"
+      - "evaluation/"
+      - "tools/"
+      - "requirements.txt"
+      - "README.md"
+      - "config.yaml.template"
+    
+    # Sensitive files to exclude (or create templates)
+    exclude_patterns:
+      - "config.yaml"
+      - "security.db"
+      - "users.db"
+      - ".env"
+      - "*.log"
+      - "*.pyc"
+      - "__pycache__"
+      - ".DS_Store"
+    
+    # Integrity settings
+    integrity:
+      generate_manifest: true
+      hash_algorithm: "sha256"
+      verify_on_build: true
+  
+  # --------------------------------------------
+  # Defense Demo Configuration
+  # --------------------------------------------
+  demo:
+    enabled: true
+    script_path: "docs/Defense_Demo_Script_AR.md"
+    
+    # Default demo parameters
+    default_profile: "Lab_Demo"  # Use lower thresholds for demo
+    one_click:
+      brute_force_multiplier: 2.0    # 2x threshold
+      ai_score_offset: 0.22          # exceed threshold by 0.22
+      create_incident: true
+      auto_link_alerts: true
+    
+    # Demo accounts
+    accounts:
+      viewer:
+        username: "viewer"
+        password: "viewer123"
+        role: "VIEWER"
+      analyst:
+        username: "analyst"
+        password: "analyst123"
+        role: "ANALYST"
+      admin:
+        username: "admin"
+        password: "${DASH_AUTH_PASSWORD}"
+        role: "ADMIN"
+  
+  # --------------------------------------------
+  # Scientific Validation
+  # --------------------------------------------
+  validation:
+    enabled: true
+    
+    # Confusion matrix calculation
+    confusion_matrix:
+      tp_weight: 1.0
+      fp_weight: 1.0
+      tn_weight: 1.0
+      fn_weight: 1.0
+    
+    # Statistical measures
+    statistics:
+      calculate_precision: true
+      calculate_recall: true
+      calculate_f1_score: true
+      calculate_accuracy: true
+    
+    # Baseline comparison
+    baseline:
+      use_baseline: true
+      baseline_file: "evaluation/baseline_results.json"
+      tolerance_percent: 10  # 10% deviation allowed
+  
+  # --------------------------------------------
+  # Final Report Configuration
+  # --------------------------------------------
+  reporting:
+    enabled: true
+    formats:
+      - "json"
+      - "markdown"
+      - "pdf"  # optional
+    include_charts: true
+    include_confusion_matrix: true
+    include_resource_graphs: true
+    
+    # Templates
+    templates:
+      evaluation: "evaluation/report_template.md"
+      release: "release/README_template.md"
+    
+    # Auto-generate on evaluation
+    auto_generate: true
+  
+  # --------------------------------------------
+  # Security Review Checklist
+  # --------------------------------------------
+  security_review:
+    enabled: true
+    output_file: "docs/Security_Review.md"
+    
+    checklist:
+      - "RBAC implemented with 3 roles"
+      - "Audit logs with filters"
+      - "Integrity hashes for artifacts"
+      - "Secrets via environment variables"
+      - "Dashboard authentication enabled"
+      - "Session timeout configured"
+      - "File integrity monitoring active"
+      - "No hardcoded credentials"
+    
+    # Limitations documentation
+    limitations:
+      - "No deep packet inspection"
+      - "Limited to single host monitoring"
+      - "No distributed deployment"
+      - "Basic encryption for reports"
+      - "SQLite concurrency limits"
+  
+  # --------------------------------------------
+  # Academic Requirements
+  # --------------------------------------------
+  academic:
+    project_name: "Enterprise Security Operations Center"
+    student_name: "Your Name"  # يمكن تغييره
+    supervisor_name: "Dr. Supervisor"
+    university: "Your University"
+    department: "Computer Science / Information Security"
+    year: 2026
+    
+    # Submission details
+    submission:
+      format: "ZIP + PDF"
+      include_source: true
+      include_docs: true
+      include_evaluation: true
+      include_demo_script: true
+    
+    # Grading criteria (for reference)
+    grading_criteria:
+      functionality: 30
+      security: 25
+      documentation: 20
+      evaluation: 15
+      presentation: 10
+      
+# ===== PHASE 7: DEPLOYMENT & OPERATIONS =====
+paths:
+  logs_dir: "logs"
+  reports_dir: "reports"
+  exports_dir: "exports"
+  evidence_dir: "evidence_pack"
+
+version:
+  app_version: "1.0.0"
+  build: "phase7"
+
+integrations:
+  enable_dispatcher: true
+  poll_interval_seconds: 3
+
+  cef_enabled: true
+  cef_output_path: "exports/cef.log"
+
+  webhook_enabled: false
+  webhook_url: ""
+  webhook_timeout_seconds: 5
