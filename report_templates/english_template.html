@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Incident Report - {{incident_id}}</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            font-family: 'Inter', Arial, sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .report-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #2C3E50, #3498DB);
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .severity-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            margin: 5px;
+        }
+        
+        .severity-critical { background: linear-gradient(135deg, #FF6B6B, #EE5A52); color: white; }
+        .severity-high { background: linear-gradient(135deg, #FF9F43, #E67E22); color: white; }
+        .severity-medium { background: linear-gradient(135deg, #FFD93D, #F1C40F); color: #333; }
+        .severity-low { background: linear-gradient(135deg, #6BCF7F, #27AE60); color: white; }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498DB;
+        }
+        
+        .section h2 {
+            color: #2C3E50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        .details-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        .details-table th, .details-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        
+        .details-table th {
+            background-color: #2C3E50;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .details-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .recommendations ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        
+        .recommendations li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .recommendations li:before {
+            content: "•";
+            color: #3498DB;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+        
+        @media print {
+            body { background: white; }
+            .report-container { box-shadow: none; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="report-container">
+        <div class="logo">
+            <div style="font-size: 24px; font-weight: bold; color: #3498DB;">🛡️ Security Operations Center</div>
+            <div style="color: #666; margin-top: 5px;">Enterprise SOC Dashboard</div>
+        </div>
+        
+        <div class="header">
+            <h1>Security Incident Report</h1>
+            <div class="subtitle">Threat Monitoring and Security Operations System</div>
+        </div>
+        
+        <div class="section">
+            <h2>Incident Information</h2>
+            <table class="details-table">
+                <tr>
+                    <th>Incident ID</th>
+                    <td>{{incident_id}}</td>
+                </tr>
+                <tr>
+                    <th>Created At</th>
+                    <td>{{created_at}}</td>
+                </tr>
+                <tr>
+                    <th>Severity Level</th>
+                    <td><span class="severity-badge severity-{{severity_class}}">{{severity}}</span></td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>{{status}}</td>
+                </tr>
+                <tr>
+                    <th>Assigned To</th>
+                    <td>{{assigned_to}}</td>
+                </tr>
+                <tr>
+                    <th>Alert Count</th>
+                    <td>{{alert_count}}</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>Incident Details</h2>
+            <div style="padding: 15px; background: white; border-radius: 5px; border: 1px solid #eee;">
+                <h3 style="color: #2C3E50; margin-bottom: 10px;">{{title}}</h3>
+                <p style="color: #555; line-height: 1.8;">{{description}}</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Recommendations & Actions</h2>
+            <div class="recommendations">
+                <ul>
+                    <li>Review security logs to determine attack scope</li>
+                    <li>Temporarily isolate affected systems</li>
+                    <li>Reset passwords for affected users</li>
+                    <li>Review firewall rules and configurations</li>
+                    <li>Update intrusion detection systems</li>
+                    <li>Monitor network traffic for additional suspicious activity</li>
+                    <li>Update operating systems and applications</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Timeline</h2>
+            <table class="details-table">
+                <tr>
+                    <th>Event</th>
+                    <th>Date & Time</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Incident Detection</td>
+                    <td>{{created_at}}</td>
+                    <td>Incident Created</td>
+                </tr>
+                <tr>
+                    <td>Status Update</td>
+                    <td>{{updated_at}}</td>
+                    <td>Investigation Started</td>
+                </tr>
+                <tr>
+                    <td>Report Generation</td>
+                    <td>{{report_time}}</td>
+                    <td>Incident Documentation</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <p>This report was automatically generated by Enterprise SOC Dashboard</p>
+            <p>Report Date: {{report_time}}</p>
+            <p class="no-print">To print this report, use Ctrl+P or the browser's print menu</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+dash==2.14.0
+dash-bootstrap-components==1.5.0
+plotly==5.17.0
+flask==2.3.3
+flask-login==0.6.2
+werkzeug==2.3.7
+pandas==2.0.3
+numpy==1.24.3
+pyyaml==6.0
+psutil==5.9.5
+requests==2.31.0
+Flask-BasicAuth==0.2.0
+python-dotenv==1.0.0

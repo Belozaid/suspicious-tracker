@@ -1,0 +1,116 @@
+# config.yaml كامل
+app:
+  name: "Security Monitoring System"
+  version: "2.0.0"
+  db_path: "data/security.db"
+  log_path: "logs/security_monitor.log"
+  poll_seconds: 2
+  feature_window_seconds: 60
+  detection_interval_seconds: 60
+
+dashboard:
+  host: "0.0.0.0"
+  port: 8050
+  debug: false
+  auth_enabled: true
+  auth_user: "admin"
+  auth_password: "${DASH_AUTH_PASSWORD}"
+  session_timeout: 3600
+  
+  # نظام RBAC متعدد المستخدمين
+  users:
+    - username: "viewer"
+      password: "viewer123"
+      role: "VIEWER"
+      full_name: "Viewer User"
+      email: "viewer@company.com"
+      
+    - username: "analyst"
+      password: "analyst123"
+      role: "ANALYST"
+      full_name: "Security Analyst"
+      email: "analyst@company.com"
+      
+    - username: "admin"
+      password: "Belo2026"
+      role: "ADMIN"
+      full_name: "System Administrator"
+      email: "admin@company.com"
+rbac:
+  users:
+    - username: "viewer"
+      password: "viewer123"
+      role: "VIEWER"
+      full_name: "Viewer User"
+      email: "viewer@company.com"
+    - username: "analyst"
+      password: "analyst123"
+      role: "ANALYST"
+      full_name: "Security Analyst"
+      email: "analyst@company.com"
+    - username: "admin"
+      password: "${DASH_AUTH_PASSWORD}"
+      role: "ADMIN"
+      full_name: "System Administrator"
+      email: "admin@company.com"
+
+live_monitoring:
+  enabled: true
+  update_interval_ms: 2000
+  collect_system_metrics: true
+  collect_network_stats: true
+  collect_security_events: true
+
+alerting:
+  email_enabled: false
+  sound_alerts: true
+  notification_level: "MEDIUM"
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  email_from: ""
+  email_to: ""
+  smtp_password: "${SMTP_PASSWORD}"
+
+detection:
+  enabled: true
+  min_severity: "MEDIUM"
+  auto_create_incidents: true
+
+collectors:
+  process: true
+  network: true
+  eventlog: true
+  login: true
+
+incidents:
+  auto_close_days: 7
+  max_open_incidents: 100
+
+phase6:
+  enable_integrity_hashing: true
+  enable_system_metrics: true
+  metrics_interval_seconds: 30
+  enable_crash_safe: true
+  max_retries: 5
+  backoff_base: 2
+  
+  # Health thresholds for warnings
+  health_thresholds:
+    cpu_percent_warn: 15
+    ram_mb_warn: 200
+    cycle_ms_warn: 800
+  
+  # Demo settings
+  demo:
+    enabled: true
+    features:
+      failed_logins_60s: 12
+      outbound_conns_60s: 650
+      unique_remote_ips_60s: 75
+      process_snapshots_60s: 8
+      avg_running_processes: 230
+    ai_anomaly_score: 0.92
+    ai_threshold: 0.70
+    alert_type: "BRUTE_FORCE_SUSPECTED"
+    alert_severity: "HIGH"
+    incident_title: "DEMO: BRUTE_FORCE + AI"

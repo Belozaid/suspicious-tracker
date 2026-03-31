@@ -1,0 +1,13 @@
+2026-02-03 14:14:49 - security-monitor-enterprise - INFO - ============================================================
+2026-02-03 14:14:49 - security-monitor-enterprise - INFO - Starting Security Monitor Enterprise - Version 3.0.0
+2026-02-03 14:14:49 - security-monitor-enterprise - INFO - ============================================================
+2026-02-03 14:14:49 - security-monitor-enterprise - INFO - 📋 FINAL CONFIGURATION STATUS
+2026-02-03 14:14:49 - security-monitor-enterprise - INFO - ----------------------------------------
+2026-02-03 14:14:49 - security-monitor-enterprise - INFO - Active Collectors: 0/0
+2026-02-03 14:14:49 - security-monitor-enterprise - INFO - Detection System: ENABLED
+2026-02-03 14:14:49 - security-monitor-enterprise - INFO - ----------------------------------------
+2026-02-03 14:14:50 - security-monitor-enterprise - INFO - ✅ Dashboard dependencies available
+2026-02-03 14:14:50 - security-monitor-enterprise - INFO - Connected to database: test_data/test.db
+2026-02-03 14:14:50 - security-monitor-enterprise - INFO - Created/updated database tables
+2026-02-03 14:14:50 - security-monitor-enterprise - INFO - ✅ Database initialized: test_data/test.db
+2026-02-03 14:14:50 - security-monitor-enterprise - INFO - Closed all database connections

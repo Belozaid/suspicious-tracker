@@ -1,191 +1,99 @@
-# suspicious-tracker
-Security Monitoring System - Enterprise SOC Platform
+# 🚨 Suspicious Tracker - Enterprise SOC Dashboard
 
-A comprehensive, AI-powered Security Operations Center (SOC) platform for real-time threat detection, incident response, and security monitoring in Windows   environments.
+<div align="center">
 
-✨ Features
+![Version](https://img.shields.io/badge/version-3.0.0-blue)
 
-Core Capabilities
+![Python](https://img.shields.io/badge/python-3.8%2B-green)
 
-🤖 AI-Powered Detection - Isolation Forest algorithm for behavioral anomaly detection
+![License](https://img.shields.io/badge/license-MIT-orange)
 
-📊 Real-time Monitoring - Continuous collection of processes, network connections, and system metrics
+![Security](https://img.shields.io/badge/security-SOC-red)
 
-🎯 Rule-Based Engine - Customizable detection rules with severity levels (LOW/MEDIUM/HIGH/CRITICAL)
+![RBAC](https://img.shields.io/badge/RBAC-enabled-purple)
 
-🔗 MITRE ATT&CK Mapping - Automatic mapping of threats to MITRE framework techniques
+**An integrated platform for monitoring and managing cybersecurity | Enterprise Security Operations Center**
 
-📈 Interactive Dashboard - Real-time visualization with Plotly/Dash
+[Installation](#-installation) •
+[Running](#-quick-start) •
 
-🔐 RBAC Authentication - Role-Based Access Control (VIEWER/ANALYST/ADMIN)
+[Features](#-features) •
 
-Security Features
+[Structure](#-project-structure) •
 
-🛡️ File Integrity Monitoring - SHA-256 hashing for critical file verification
+[Documentation](#-documentation)
 
-📋 Complete Audit Trail - Logging of all user actions and security events
+</div>
 
-🌐 Threat Intelligence - IP reputation checking via VirusTotal, AbuseIPDB, IPinfo
+---
 
-📊 Incident Management - Complete lifecycle with workflow and assignment
+## 🌟 Overview
 
-📄 Report Generation - Automated security reports with digital signatures
+**Suspicious Tracker** is an integrated cybersecurity operations management (SOC) system with:
 
-Technical Highlights
+- 🔍 **Advanced Threat Detection** using Machine Learning
 
-⚡ Multi-threaded Architecture - Efficient parallel data collection
+- 🚨 **Real-Time Alert and Incident Management**
 
-💾 Lightweight Database - SQLite with WAL mode for concurrent access
+- 👥 **Advanced Responsibility Control System (RBAC)** with 3 roles
 
-🔄 Crash-Safe Execution - Watchdog protection and automatic recovery
+- 📊 **Interactive Dashboard** using Dash/Plotly technology
 
-📡 Live Data Collection - Real system metrics and network traffic analysis
+- 🔐 **Threat Intelligence Integration**
 
-📊 Performance Optimized - Minimal CPU and memory overhead (<10% CPU, <300MB RAM)
+- 📝 **Security Reports with Integrity Verification**
 
-📋 Requirements
+## ✨ Key Features
 
-Python 3.8+ (3.10+ recommended)
+### 🛡️ **Security and Authentication**
+- Integrated RBAC system (Viewer, Analyst, Admin)
+- Secure session management with all attempts logged
+- Password encryption using Werkzeug
 
-Windows 10/11 or Windows Server 2016+ (Linux support for development)
+### 📊 **Control Panel**
+- Modern interface with Light Mode design
+- Live system and network data
+- Interactive graphs using Plotly
+- Automatic updates every 2-10 seconds
 
-Minimum 4GB RAM, 2 CPU cores
+### 🤖 **Artificial Intelligence**
+- Anomaly detection using Isolation Forest
+- Behavioral analysis of network and user behavior
+- Real-time risk assessment
 
-Administrative privileges recommended for network connection monitoring
+### 📋 **Reporting**
+- Daily reports with digital signatures
+- Incident analysis with digital proofs
+- Export in multiple formats (HTML, JSON, CSV)
 
-🚀 Installation
+## 🚀 Installation
 
-# Clone the repository
+### Prerequisites
+- Python 3.8 or later
+- 4GB RAM (8GB recommended)
+- 10GB storage space
 
-git clone https://github.com/Belozaid/security-monitoring-system.git
+### Steps Installation
 
-# Navigate to the directory
+```bash
+# 1. Clone the repository
+`git clone https://github.com/[your-username]/suspicious-tracker.git
+`cd suspicious-tracker`
 
-cd security-monitoring-system
+# 2. Create a virtual environment
+`python -m venv venv`
 
-# Create virtual environment (recommended)
+# 3. Activate the environment
+# Windows:
+`venv\Scripts\activate`
+# Linux/Mac:
+`source venv/bin/activate`
 
-python -m venv venv
+# 4. Install requirements
+`pip install -r requirements.txt`
 
-# Activate virtual environment
+# 5. Configure the database
+`python -c "from main import main; main()"
 
-# On Windows:
-
-venv\Scripts\activate
-
-# On Linux/Mac:
-
-source venv/bin/activate
-
-# Install dependencies
-
-pip install -r requirements.txt
-
-# Make scripts executable (Linux/Mac)
-
-chmod +x main.py dashboard/app.py
-
-🔧 Quick Start
-
-1. Configure Authentication
-   
-Edit core/config.yaml to set up users:
-
-dashboard:
-  auth_user: "admin"
-  auth_password: "${DASH_AUTH_PASSWORD}"
-  users:
-    - username: "viewer"
-      password: "viewer123"
-      role: "VIEWER"
-    - username: "analyst"
-      password: "analyst123"
-      role: "ANALYST"
-    - username: "admin"
-      password: "${DASH_AUTH_PASSWORD}"
-      role: "ADMIN"
-
-Set environment variable for admin password:
-
-# On Windows (PowerShell)
-
-$env:DASH_AUTH_PASSWORD="your_secure_password"
-
-# On Linux/Mac
-
-export DASH_AUTH_PASSWORD="your_secure_password"
-
-2. Start the Monitoring System
-   
-python main.py
-
-4. Start the Dashboard (in separate terminal)
-   
-python dashboard/app.py
-
-6. Access the Dashboard
-   
-Open your browser and navigate to: http://localhost:8050
-
-Default credentials:
-
-viewer / viewer123 (read-only access)
-
-analyst / analyst123 (full workflow access)
-
-admin / your_secure_password (system administration
-
-📊 Dashboard Pages
-
-Dashboard:	Real-time KPIs, system metrics, threat level monitoring
-
-Alerts:	Live security alerts with severity filtering
-
-Incidents:	Complete incident management workflow
-
-System Health:	CPU, memory, disk, network performance metrics
-
-Integrity:	File integrity verification and hash checking
-
-Audit: Log	Complete audit trail of all actions (ADMIN only)
-
-Network:	Real-time network traffic analysis and monitoring
-
-Reports:	Security report generation and export
-
-AI Analytics:	Anomaly scores and model status visualization
-
-Access Control:	User management and role permissions (ADMIN only)
-
-🧪 Running Tests
-
-# Run unit tests
-
-python -m pytest tests/ -v
-
-# Run specific test module
-
-python -m pytest tests/test_detection.py -v
-
-# Run with coverage report
-
-python -m pytest --cov=. tests/
-
-🛠️ Technology Stack
-
-Python 3.8+ - Core development language
-
-psutil - System and process monitoring
-
-scikit-learn - Isolation Forest for anomaly detection
-
-Dash/Plotly - Interactive dashboard framework
-
-SQLite3 - Embedded database with WAL mode
-
-PyYAML - Configuration management
-
-hashlib - SHA-256 integrity verification
-
-
-
+# 6. Start the system
+`python main.py`

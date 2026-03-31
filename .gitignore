@@ -1,0 +1,120 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Virtual Environment
+venv/
+venv_old/
+env/
+
+# Databases
+*.db
+*.db.backup
+*.db-journal
+*.sqlite3
+*.sqlite
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+*.log.*
+soc_dashboard.log
+security_monitor.log
+test_logs/
+
+# Security sensitive
+.env
+*.env
+*.pem
+*.key
+*.crt
+*.p12
+secrets/
+credentials/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.backup
+backups/
+*.bak
+
+# Test files
+test_results.json
+test_final.db
+security_backup_*.db
+
+# Compiled
+*.pyc
+*.pyo
+*.pyd
+*.exe
+*.msi
+*.dll
+
+# Reports - keep only if needed
+reports/
+exports/
+evidence_pack/
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.pcap
+*.pcapng
+
+# Logs and temp
+logs/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code
+.history/
+
+# Project specific
+Me.env
+*.env
+auth_database.db
+auth_system.db
+complete_auth.db
+security_operations.db
+users_auth.db
+
+# Keep these files (don't ignore)
+!README.md
+!README_PHASE4.md
+!requirements.txt
+!config.yaml.example
+!*.py
+!*.bat
+!*.ps1
