@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-02-13T19:04:55.024038",
+  "profile": "SME_Default",
+  "scenarios": [
+    {
+      "scenario": "Brute Force Detection",
+      "tp": 0,
+      "fn": 1,
+      "detection_rate": 0.0,
+      "total_brute_force_ips": 1,
+      "total_alerts": 0
+    },
+    {
+      "scenario": "AI Anomaly Detection",
+      "total_scores": 7253,
+      "anomalies_detected": 0,
+      "avg_anomaly_score": 0.488,
+      "avg_confidence": 0.7,
+      "detection_rate": 0.0,
+      "status": "COMPLETED"
+    },
+    {
+      "scenario": "Mean Time to Respond",
+      "status": "NO_DATA",
+      "avg_mttr_seconds": 0,
+      "avg_mttr_minutes": 0,
+      "total_resolved": 0
+    },
+    {
+      "scenario": "Resource Usage",
+      "avg_cpu_percent": 0.22,
+      "max_cpu_percent": 43.0,
+      "avg_memory_percent": 115.46,
+      "max_memory_percent": 141.44,
+      "avg_disk_percent": 73.17,
+      "sample_count": 257
+    }
+  ],
+  "summary": {
+    "total_tests": 4,
+    "passed": 0,
+    "failed": 4,
+    "overall_detection_rate": 0.0,
+    "overall_fp_rate": 0.0,
+    "avg_mttr": 0,
+    "avg_confidence": 0.7
+  },
+  "confusion_matrix": {
+    "tp": 0,
+    "fp": 0,
+    "tn": 0,
+    "fn": 0
+  },
+  "resource_usage": {},
+  "integrity_hash": "eb01dc6ae6912631b626e63799a1f0a04381c6a3ab22061a16e0af548962a111",
+  "execution_time_seconds": 0.03
+}

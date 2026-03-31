@@ -1,0 +1,1389 @@
+2026-02-13 17:12:04 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-02-13 17:12:04 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-02-13 17:12:04 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:07 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:10 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:13 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:16 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:19 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:22 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:25 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:28 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:31 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:34 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:37 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:40 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:43 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:46 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:49 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:52 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:55 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:12:58 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:01 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:04 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:18 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:21 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:24 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:27 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:30 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:33 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:36 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:39 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:42 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:45 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:48 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:51 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:54 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:13:57 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:00 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:03 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:06 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:09 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:12 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:15 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:18 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:21 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:24 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:27 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:30 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:33 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:36 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:39 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:42 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:45 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:48 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:51 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:54 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:14:57 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:00 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:03 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:06 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:09 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:12 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:15 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:18 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:21 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:24 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:27 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:30 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:33 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:36 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:39 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:42 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:45 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:48 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:51 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:54 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:15:57 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:00 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:03 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:06 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:09 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:12 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:15 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:18 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:21 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:24 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:27 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:30 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:33 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:36 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:39 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:42 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:45 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:48 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:51 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:54 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:16:57 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:00 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:04 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:07 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:10 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:13 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:16 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:19 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:22 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:25 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:28 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:31 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:34 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:37 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:40 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:43 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:46 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:49 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:52 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:55 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:17:58 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:01 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:04 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:07 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:10 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:13 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:16 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:19 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:22 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:25 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:28 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:31 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:34 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:37 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:40 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:43 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:46 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:49 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:52 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:55 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:18:58 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:01 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:04 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:07 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:10 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:13 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:16 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:19 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:22 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:25 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:28 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:31 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:34 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:37 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:40 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:43 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:46 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:49 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:52 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:55 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:19:58 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:20:01 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:20:04 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:20:07 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:20:10 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:20:13 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:20:16 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:20:19 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:21:48 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-02-13 17:21:48 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-02-13 17:21:48 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:21:51 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:21:54 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:21:57 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:00 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:03 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:06 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:09 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:12 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:15 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:18 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:21 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:24 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:27 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:30 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:33 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:36 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:39 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:42 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:45 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:48 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:22:51 | ERROR | dispatcher | خطأ في قاعدة البيانات:
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 110, in main_loop
+    new_incidents = fetch_new_high_incidents(conn, last_processed_id)
+  File "C:\Belo2\suspicious-tracker\integrations\dispatcher.py", line 46, in fetch_new_high_incidents
+    rows = conn.execute(query, (since_id,)).fetchall()
+sqlite3.OperationalError: no such column: i.start_ts_utc
+2026-02-13 17:28:45 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-02-13 17:28:45 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-02-13 17:28:45 | INFO | dispatcher | معالجة حادثة جديدة #1 (HIGH)...
+2026-02-13 17:28:45 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named ts_utc
+2026-02-13 17:28:45 | INFO | dispatcher | معالجة حادثة جديدة #2 (HIGH)...
+2026-02-13 17:28:45 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named ts_utc
+2026-02-13 17:28:45 | INFO | dispatcher | معالجة حادثة جديدة #3 (HIGH)...
+2026-02-13 17:28:45 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named ts_utc
+2026-02-13 17:28:45 | INFO | dispatcher | معالجة حادثة جديدة #4 (HIGH)...
+2026-02-13 17:28:45 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named ts_utc
+2026-02-13 17:28:45 | INFO | dispatcher | تم التحديث إلى incident_id: 4
+2026-02-13 17:42:05 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-02-13 17:42:05 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-02-13 19:09:42 | INFO | dispatcher | معالجة حادثة جديدة #5 (HIGH)...
+2026-02-13 19:09:42 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-13 19:09:42 | INFO | dispatcher | تم التحديث إلى incident_id: 5
+2026-02-23 14:14:45 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-02-23 14:14:45 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-02-23 14:14:45 | INFO | dispatcher | معالجة حادثة جديدة #6 (HIGH)...
+2026-02-23 14:14:45 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:45 | INFO | dispatcher | معالجة حادثة جديدة #7 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #8 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #9 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #10 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #11 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #12 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #13 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #14 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #15 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #16 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #17 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #18 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #19 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #20 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #21 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #22 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | معالجة حادثة جديدة #23 (HIGH)...
+2026-02-23 14:14:46 | ERROR | dispatcher | فشل تسجيل حدث التدقيق: table audit_log has no column named actor
+2026-02-23 14:14:46 | INFO | dispatcher | تم التحديث إلى incident_id: 23
+2026-02-23 14:15:59 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-02-23 14:15:59 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-03 15:46:20 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-03 15:46:20 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-03 16:26:59 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-03 16:26:59 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-04 16:06:51 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-04 16:06:56 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-11 19:32:03 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-11 19:32:04 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-16 03:26:30 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-16 03:26:36 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-16 16:51:28 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-16 16:51:29 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-17 18:17:42 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-17 18:17:49 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-17 19:56:22 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-17 19:56:23 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-17 19:59:42 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-17 19:59:43 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-18 11:49:20 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-18 11:49:20 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-18 14:58:13 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-18 14:58:13 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-19 13:20:13 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-19 13:20:14 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-24 11:06:43 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-24 11:06:44 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-25 12:03:22 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-25 12:03:26 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-25 15:12:11 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-25 15:12:12 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-26 14:45:16 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-26 14:45:19 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-28 12:04:39 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-28 12:04:43 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-29 15:16:34 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-29 15:16:39 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-30 15:20:40 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-30 15:20:41 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db
+2026-03-30 18:18:59 | INFO | dispatcher | بدء تشغيل موزع التكامل (Dispatcher)...
+2026-03-30 18:19:00 | INFO | dispatcher | ✅ متصل بقاعدة البيانات: data/security.db

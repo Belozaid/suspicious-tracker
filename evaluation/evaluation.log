@@ -1,0 +1,166 @@
+2026-02-13 18:30:48,712 - evaluation-harness - INFO - ======================================================================
+2026-02-13 18:30:48,713 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 18:30:48,714 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 18:30:48,714 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 18:30:48,715 - evaluation-harness - INFO - ======================================================================
+2026-02-13 18:38:18,106 - evaluation-harness - INFO - ======================================================================
+2026-02-13 18:38:18,112 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 18:38:18,115 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 18:38:18,115 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 18:38:18,116 - evaluation-harness - INFO - ======================================================================
+2026-02-13 18:38:36,311 - evaluation-harness - WARNING - No resolved incidents found
+2026-02-13 18:39:18,106 - evaluation-harness - INFO - ======================================================================
+2026-02-13 18:39:18,106 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 18:39:18,106 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 18:39:18,107 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 18:39:18,107 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:01:03,980 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:01:03,980 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 19:01:03,980 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 19:01:03,980 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 19:01:03,980 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:01:03,980 - evaluation-harness - INFO - [SEARCH] Evaluating Brute Force Detection...
+2026-02-13 19:04:55,024 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:04:55,024 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 19:04:55,024 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 19:04:55,024 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 19:04:55,024 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:04:55,024 - evaluation-harness - INFO - [SEARCH] Evaluating Brute Force Detection...
+2026-02-13 19:04:55,039 - evaluation-harness - INFO - Events table columns: ['id', 'timestamp', 'source', 'event_type', 'severity', 'details', 'hostname', 'username', 'created_at']
+2026-02-13 19:04:55,039 - evaluation-harness - WARNING - FN: login - 192 events, NO alert
+2026-02-13 19:04:55,039 - evaluation-harness - INFO - Brute Force: DR=0.0%, IPs=1
+2026-02-13 19:04:55,039 - evaluation-harness - INFO - [AI] Evaluating AI Anomaly Detection...
+2026-02-13 19:04:55,055 - evaluation-harness - INFO - [AI] 0 anomalies from 7253 scores
+2026-02-13 19:04:55,055 - evaluation-harness - INFO - [TIME] Evaluating Response Time (MTTR)...
+2026-02-13 19:04:55,055 - evaluation-harness - WARNING - No resolved incidents found
+2026-02-13 19:04:55,055 - evaluation-harness - INFO - [RESOURCE] Evaluating Resource Usage...
+2026-02-13 19:04:55,055 - evaluation-harness - INFO - Metrics table columns: ['id', 'timestamp', 'cpu_percent', 'memory_mb', 'memory_percent', 'disk_percent', 'network_sent_mbps', 'network_recv_mbps', 'process_count', 'alert_queue_size', 'incident_queue_size', 'collection_latency_ms', 'detection_latency_ms', 'report_latency_ms', 'total_latency_ms']
+2026-02-13 19:04:55,055 - evaluation-harness - INFO - CPU: 0.22% | Memory: 115.46%
+2026-02-13 19:04:55,071 - evaluation-harness - INFO - Results saved to evaluation/results_20260213_190455.json
+2026-02-13 19:04:55,071 - evaluation-harness - INFO - Report generated: evaluation/reports/report_20260213_190455.md
+2026-02-13 19:04:55,071 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:04:55,071 - evaluation-harness - INFO - EVALUATION COMPLETE
+2026-02-13 19:04:55,071 - evaluation-harness - INFO -    Detection Rate: 0.0%
+2026-02-13 19:04:55,071 - evaluation-harness - INFO -    MTTR: 0s
+2026-02-13 19:04:55,086 - evaluation-harness - INFO -    Execution Time: 0.03s
+2026-02-13 19:04:55,086 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:10:12,797 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:10:12,797 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 19:10:12,797 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 19:10:12,797 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 19:10:12,797 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:10:12,797 - evaluation-harness - INFO - [SEARCH] Evaluating Brute Force Detection...
+2026-02-13 19:10:12,813 - evaluation-harness - INFO - Events table columns: ['id', 'timestamp', 'source', 'event_type', 'severity', 'details', 'hostname', 'username', 'created_at']
+2026-02-13 19:10:12,813 - evaluation-harness - WARNING - FN: login - 194 events, NO alert
+2026-02-13 19:10:12,813 - evaluation-harness - INFO - Brute Force: DR=0.0%, IPs=1
+2026-02-13 19:10:12,813 - evaluation-harness - INFO - [AI] Evaluating AI Anomaly Detection...
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - [AI] 0 anomalies from 7539 scores
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - [TIME] Evaluating Response Time (MTTR)...
+2026-02-13 19:10:12,828 - evaluation-harness - WARNING - No resolved incidents found
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - [RESOURCE] Evaluating Resource Usage...
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - Metrics table columns: ['id', 'timestamp', 'cpu_percent', 'memory_mb', 'memory_percent', 'disk_percent', 'network_sent_mbps', 'network_recv_mbps', 'process_count', 'alert_queue_size', 'incident_queue_size', 'collection_latency_ms', 'detection_latency_ms', 'report_latency_ms', 'total_latency_ms']
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - CPU: 0.32% | Memory: 114.74%
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - Results saved to evaluation/results_20260213_191012.json
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - Report generated: evaluation/reports/report_20260213_191012.md
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - EVALUATION COMPLETE
+2026-02-13 19:10:12,828 - evaluation-harness - INFO -    Detection Rate: 0.0%
+2026-02-13 19:10:12,828 - evaluation-harness - INFO -    MTTR: 0s
+2026-02-13 19:10:12,828 - evaluation-harness - INFO -    Execution Time: 0.03s
+2026-02-13 19:10:12,828 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:40:15,146 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:40:15,146 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 19:40:15,146 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 19:40:15,146 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 19:40:15,146 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:40:15,146 - evaluation-harness - INFO - [SEARCH] Evaluating Brute Force Detection...
+2026-02-13 19:40:15,161 - evaluation-harness - INFO - Events table columns: ['id', 'timestamp', 'source', 'event_type', 'severity', 'details', 'hostname', 'username', 'created_at']
+2026-02-13 19:40:15,161 - evaluation-harness - WARNING - FN: login - 211 events, NO alert
+2026-02-13 19:40:15,161 - evaluation-harness - INFO - Brute Force: DR=0.0%, IPs=1
+2026-02-13 19:40:15,161 - evaluation-harness - INFO - [AI] Evaluating AI Anomaly Detection...
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - [AI] 0 anomalies from 9169 scores
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - [TIME] Evaluating Response Time (MTTR)...
+2026-02-13 19:40:15,177 - evaluation-harness - WARNING - No resolved incidents found
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - [RESOURCE] Evaluating Resource Usage...
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - Metrics table columns: ['id', 'timestamp', 'cpu_percent', 'memory_mb', 'memory_percent', 'disk_percent', 'network_sent_mbps', 'network_recv_mbps', 'process_count', 'alert_queue_size', 'incident_queue_size', 'collection_latency_ms', 'detection_latency_ms', 'report_latency_ms', 'total_latency_ms']
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - CPU: 0.26% | Memory: 112.19%
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - Results saved to evaluation/results_20260213_194015.json
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - Report generated: evaluation/reports/report_20260213_194015.md
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - EVALUATION COMPLETE
+2026-02-13 19:40:15,177 - evaluation-harness - INFO -    Detection Rate: 0.0%
+2026-02-13 19:40:15,177 - evaluation-harness - INFO -    MTTR: 0s
+2026-02-13 19:40:15,177 - evaluation-harness - INFO -    Execution Time: 0.03s
+2026-02-13 19:40:15,177 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:49:37,577 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:49:37,577 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 19:49:37,577 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 19:49:37,577 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 19:49:37,577 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:49:37,577 - evaluation-harness - INFO - [SEARCH] Evaluating Brute Force Detection...
+2026-02-13 19:49:37,577 - evaluation-harness - INFO - Events table columns: ['id', 'timestamp', 'source', 'event_type', 'severity', 'details', 'hostname', 'username', 'created_at']
+2026-02-13 19:49:37,593 - evaluation-harness - WARNING - FN: login - 213 events, NO alert
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - Brute Force: DR=0.0%, IPs=1
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - [AI] Evaluating AI Anomaly Detection...
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - [AI] 0 anomalies from 9204 scores
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - [TIME] Evaluating Response Time (MTTR)...
+2026-02-13 19:49:37,593 - evaluation-harness - WARNING - No resolved incidents found
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - [RESOURCE] Evaluating Resource Usage...
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - Metrics table columns: ['id', 'timestamp', 'cpu_percent', 'memory_mb', 'memory_percent', 'disk_percent', 'network_sent_mbps', 'network_recv_mbps', 'process_count', 'alert_queue_size', 'incident_queue_size', 'collection_latency_ms', 'detection_latency_ms', 'report_latency_ms', 'total_latency_ms']
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - CPU: 0.26% | Memory: 112.27%
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - Results saved to evaluation/results_20260213_194937.json
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - Report generated: evaluation/reports/report_20260213_194937.md
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:49:37,593 - evaluation-harness - INFO - EVALUATION COMPLETE
+2026-02-13 19:49:37,593 - evaluation-harness - INFO -    Detection Rate: 0.0%
+2026-02-13 19:49:37,608 - evaluation-harness - INFO -    MTTR: 0s
+2026-02-13 19:49:37,608 - evaluation-harness - INFO -    Execution Time: 0.02s
+2026-02-13 19:49:37,608 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - [SEARCH] Evaluating Brute Force Detection...
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - Events table columns: ['id', 'timestamp', 'source', 'event_type', 'severity', 'details', 'hostname', 'username', 'created_at']
+2026-02-13 19:49:44,413 - evaluation-harness - WARNING - FN: login - 213 events, NO alert
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - Brute Force: DR=0.0%, IPs=1
+2026-02-13 19:49:44,413 - evaluation-harness - INFO - [AI] Evaluating AI Anomaly Detection...
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - [AI] 0 anomalies from 9204 scores
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - [TIME] Evaluating Response Time (MTTR)...
+2026-02-13 19:49:44,429 - evaluation-harness - WARNING - No resolved incidents found
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - [RESOURCE] Evaluating Resource Usage...
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - Metrics table columns: ['id', 'timestamp', 'cpu_percent', 'memory_mb', 'memory_percent', 'disk_percent', 'network_sent_mbps', 'network_recv_mbps', 'process_count', 'alert_queue_size', 'incident_queue_size', 'collection_latency_ms', 'detection_latency_ms', 'report_latency_ms', 'total_latency_ms']
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - CPU: 0.26% | Memory: 112.27%
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - Results saved to evaluation/results_20260213_194944.json
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - Report generated: evaluation/reports/report_20260213_194944.md
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - EVALUATION COMPLETE
+2026-02-13 19:49:44,429 - evaluation-harness - INFO -    Detection Rate: 0.0%
+2026-02-13 19:49:44,429 - evaluation-harness - INFO -    MTTR: 0s
+2026-02-13 19:49:44,429 - evaluation-harness - INFO -    Execution Time: 0.02s
+2026-02-13 19:49:44,429 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:54:07,278 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:54:07,278 - evaluation-harness - INFO - PHASE 8: EVALUATION HARNESS - STARTING
+2026-02-13 19:54:07,278 - evaluation-harness - INFO - Profile: SME_Default
+2026-02-13 19:54:07,278 - evaluation-harness - INFO - Database: data/security.db
+2026-02-13 19:54:07,278 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:54:07,278 - evaluation-harness - INFO - [SEARCH] Evaluating Brute Force Detection...
+2026-02-13 19:54:07,278 - evaluation-harness - INFO - Events table columns: ['id', 'timestamp', 'source', 'event_type', 'severity', 'details', 'hostname', 'username', 'created_at']
+2026-02-13 19:54:07,293 - evaluation-harness - WARNING - FN: login - 214 events, NO alert
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - Brute Force: DR=0.0%, IPs=1
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - [AI] Evaluating AI Anomaly Detection...
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - [AI] 0 anomalies from 9223 scores
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - [TIME] Evaluating Response Time (MTTR)...
+2026-02-13 19:54:07,293 - evaluation-harness - WARNING - No resolved incidents found
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - [RESOURCE] Evaluating Resource Usage...
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - Metrics table columns: ['id', 'timestamp', 'cpu_percent', 'memory_mb', 'memory_percent', 'disk_percent', 'network_sent_mbps', 'network_recv_mbps', 'process_count', 'alert_queue_size', 'incident_queue_size', 'collection_latency_ms', 'detection_latency_ms', 'report_latency_ms', 'total_latency_ms']
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - CPU: 0.26% | Memory: 112.27%
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - Results saved to evaluation/results_20260213_195407.json
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - Report generated: evaluation/reports/report_20260213_195407.md
+2026-02-13 19:54:07,293 - evaluation-harness - INFO - ======================================================================
+2026-02-13 19:54:07,309 - evaluation-harness - INFO - EVALUATION COMPLETE
+2026-02-13 19:54:07,309 - evaluation-harness - INFO -    Detection Rate: 0.0%
+2026-02-13 19:54:07,309 - evaluation-harness - INFO -    MTTR: 0s
+2026-02-13 19:54:07,309 - evaluation-harness - INFO -    Execution Time: 0.02s
+2026-02-13 19:54:07,309 - evaluation-harness - INFO - ======================================================================
