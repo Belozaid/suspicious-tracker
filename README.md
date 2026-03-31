@@ -92,8 +92,11 @@ chmod +x main.py dashboard/app.py
 Edit core/config.yaml to set up users:
 
 dashboard:
+
   auth_user: "admin"
+  
   auth_password: "${DASH_AUTH_PASSWORD}"
+  
   users:
     - username: "viewer"
       password: "viewer123"
