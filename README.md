@@ -77,7 +77,7 @@
 
 ```bash
 # 1. Clone the repository
-`git clone https://github.com/[your-username]/suspicious-tracker.git
+`git clone https://github.com/Belozaid/suspicious-tracker.git
 `cd suspicious-tracker`
 
 # 2. Create a virtual environment
