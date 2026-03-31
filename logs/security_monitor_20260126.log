@@ -1,0 +1,295 @@
+[2026-01-26 16:07:19] [INFO] [security-monitor] [main.py:250] - ============================================================
+[2026-01-26 16:07:19] [INFO] [security-monitor] [main.py:251] - Security Monitor Starting
+[2026-01-26 16:07:19] [INFO] [security-monitor] [main.py:252] - Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 16:07:19] [INFO] [security-monitor] [main.py:253] - Poll Interval: 10s
+[2026-01-26 16:07:19] [INFO] [security-monitor] [main.py:254] - AI Enabled: True
+[2026-01-26 16:07:19] [INFO] [security-monitor] [main.py:255] - ============================================================
+[2026-01-26 16:07:28] [ERROR] [security-monitor] [main.py:231] - Error in detection cycle: 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\main.py", line 172, in _job_detection_cycle
+    ts_utc, features, evidence = self.feature_extractor.extract_features(
+  File "C:\Belo2\suspicious-tracker\preprocessing\feature_engine.py", line 57, in extract_features
+    self._process_network_events(details, stats)
+  File "C:\Belo2\suspicious-tracker\preprocessing\feature_engine.py", line 114, in _process_network_events
+    if self._is_suspicious_connection(conn):
+  File "C:\Belo2\suspicious-tracker\preprocessing\feature_engine.py", line 190, in _is_suspicious_connection
+    if any(remote_ip.startswith(prefix) for prefix in suspicious_prefixes):
+  File "C:\Belo2\suspicious-tracker\preprocessing\feature_engine.py", line 190, in <genexpr>
+    if any(remote_ip.startswith(prefix) for prefix in suspicious_prefixes):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+[2026-01-26 16:07:28] [INFO] [security-monitor] [main.py:242] - Stats - Events: 5 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0
+[2026-01-26 16:08:14] [INFO] [security-monitor] [main.py:242] - Stats - Events: 21 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0
+[2026-01-26 16:08:29] [ERROR] [security-monitor] [main.py:231] - Error in detection cycle: 'NoneType' object has no attribute 'lower'
+Traceback (most recent call last):
+  File "C:\Belo2\suspicious-tracker\main.py", line 172, in _job_detection_cycle
+    ts_utc, features, evidence = self.feature_extractor.extract_features(
+  File "C:\Belo2\suspicious-tracker\preprocessing\feature_engine.py", line 55, in extract_features
+    self._process_process_events(details, stats)
+  File "C:\Belo2\suspicious-tracker\preprocessing\feature_engine.py", line 94, in _process_process_events
+    if self._is_suspicious_process(proc):
+  File "C:\Belo2\suspicious-tracker\preprocessing\feature_engine.py", line 151, in _is_suspicious_process
+    cmdline = proc.get("cmdline", "").lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+[2026-01-26 16:08:55] [INFO] [security-monitor] [main.py:96] - Shutdown signal received. Stopping...
+[2026-01-26 16:08:55] [INFO] [security-monitor] [main.py:305] - Shutting down Security Monitor...
+[2026-01-26 16:08:55] [INFO] [security-monitor] [main.py:242] - Stats - Events: 32 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0
+[2026-01-26 16:08:55] [INFO] [security-monitor] [main.py:314] - Security Monitor shutdown complete
+[2026-01-26 16:29:13] [INFO] [security-monitor] [main.py:49] - Feature extractor initialized
+[2026-01-26 16:29:13] [INFO] [security-monitor] [main.py:56] - Rules engine initialized
+[2026-01-26 16:29:13] [INFO] [security-monitor] [main.py:63] - Incident manager initialized
+[2026-01-26 16:29:14] [INFO] [security-monitor] [main.py:75] - AI model not trained yet
+[2026-01-26 16:29:14] [INFO] [security-monitor] [main.py:316] - ============================================================
+[2026-01-26 16:29:14] [INFO] [security-monitor] [main.py:317] - Security Monitor Starting - Fixed Version
+[2026-01-26 16:29:14] [INFO] [security-monitor] [main.py:318] - Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 16:29:14] [INFO] [security-monitor] [main.py:319] - Poll Interval: 10s
+[2026-01-26 16:29:14] [INFO] [security-monitor] [main.py:320] - AI Enabled: True
+[2026-01-26 16:29:14] [INFO] [security-monitor] [main.py:321] - ============================================================
+[2026-01-26 16:29:14] [INFO] [security-monitor] [main.py:360] - Starting data collection...
+[2026-01-26 16:30:03] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 16:30:12] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 16:30:35] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 16:30:40] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 16:30:40] [ERROR] [security-monitor] [main.py:282] - Rules execution error: cannot import name 'run_rules' from 'detection.rules_engine' (C:\Belo2\suspicious-tracker\detection\rules_engine.py)
+[2026-01-26 16:30:40] [INFO] [security-monitor] [main.py:308] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:30:40] [INFO] [security-monitor] [main.py:373] - Shutting down Security Monitor...
+[2026-01-26 16:30:40] [INFO] [security-monitor] [main.py:308] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:30:40] [INFO] [security-monitor] [main.py:385] - Security Monitor shutdown complete
+[2026-01-26 16:40:30] [INFO] [security-monitor] [main.py:49] - Feature extractor initialized
+[2026-01-26 16:40:30] [INFO] [security-monitor] [main.py:56] - Rules engine initialized
+[2026-01-26 16:40:30] [INFO] [security-monitor] [main.py:63] - Incident manager initialized
+[2026-01-26 16:40:31] [INFO] [security-monitor] [main.py:75] - AI model not trained yet
+[2026-01-26 16:40:31] [INFO] [security-monitor] [main.py:316] - ============================================================
+[2026-01-26 16:40:31] [INFO] [security-monitor] [main.py:317] - Security Monitor Starting - Fixed Version
+[2026-01-26 16:40:31] [INFO] [security-monitor] [main.py:318] - Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 16:40:31] [INFO] [security-monitor] [main.py:319] - Poll Interval: 10s
+[2026-01-26 16:40:31] [INFO] [security-monitor] [main.py:320] - AI Enabled: True
+[2026-01-26 16:40:31] [INFO] [security-monitor] [main.py:321] - ============================================================
+[2026-01-26 16:40:31] [INFO] [security-monitor] [main.py:360] - Starting data collection...
+[2026-01-26 16:41:24] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 16:41:47] [INFO] [security-monitor] [main.py:308] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:41:47] [INFO] [security-monitor] [main.py:373] - Shutting down Security Monitor...
+[2026-01-26 16:41:47] [INFO] [security-monitor] [main.py:308] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:41:47] [INFO] [security-monitor] [main.py:385] - Security Monitor shutdown complete
+[2026-01-26 16:50:42] [INFO] [security-monitor] [main.py:49] - Feature extractor initialized
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:56] - Rules engine initialized
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:63] - Incident manager initialized
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:75] - AI model not trained yet
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:316] - ============================================================
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:317] - Security Monitor Starting - Fixed Version
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:318] - Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:319] - Poll Interval: 10s
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:320] - AI Enabled: True
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:321] - ============================================================
+[2026-01-26 16:50:43] [INFO] [security-monitor] [main.py:360] - Starting data collection...
+[2026-01-26 16:50:55] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 16:50:59] [INFO] [security-monitor] [main.py:308] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:50:59] [INFO] [security-monitor] [main.py:373] - Shutting down Security Monitor...
+[2026-01-26 16:50:59] [INFO] [security-monitor] [main.py:308] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:50:59] [INFO] [security-monitor] [main.py:385] - Security Monitor shutdown complete
+[2026-01-26 16:54:28] [INFO] [security-monitor] [main.py:49] - Feature extractor initialized
+[2026-01-26 16:54:28] [INFO] [security-monitor] [main.py:56] - Rules engine initialized
+[2026-01-26 16:54:28] [INFO] [security-monitor] [main.py:63] - Incident manager initialized
+[2026-01-26 16:54:29] [INFO] [security-monitor] [main.py:75] - AI model not trained yet
+[2026-01-26 16:54:29] [INFO] [security-monitor] [main.py:316] - ============================================================
+[2026-01-26 16:54:29] [INFO] [security-monitor] [main.py:317] - Security Monitor Starting - Fixed Version
+[2026-01-26 16:54:29] [INFO] [security-monitor] [main.py:318] - Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 16:54:29] [INFO] [security-monitor] [main.py:319] - Poll Interval: 10s
+[2026-01-26 16:54:29] [INFO] [security-monitor] [main.py:320] - AI Enabled: True
+[2026-01-26 16:54:29] [INFO] [security-monitor] [main.py:321] - ============================================================
+[2026-01-26 16:54:29] [INFO] [security-monitor] [main.py:360] - Starting data collection...
+[2026-01-26 16:54:40] [INFO] [security-monitor] [main.py:308] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:55:20] [INFO] [security-monitor] [main.py:308] - Stats - Events: 16 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:55:58] [INFO] [security-monitor] [main.py:308] - Stats - Events: 26 | Features: 2 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:56:36] [INFO] [security-monitor] [main.py:308] - Stats - Events: 36 | Features: 2 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:57:42] [INFO] [security-monitor] [main.py:308] - Stats - Events: 41 | Features: 3 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:58:28] [INFO] [security-monitor] [main.py:308] - Stats - Events: 46 | Features: 3 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 16:59:42] [INFO] [security-monitor] [main.py:308] - Stats - Events: 51 | Features: 4 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:00:20] [INFO] [security-monitor] [main.py:308] - Stats - Events: 61 | Features: 4 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:01:04] [INFO] [security-monitor] [main.py:308] - Stats - Events: 76 | Features: 5 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:01:48] [INFO] [security-monitor] [main.py:308] - Stats - Events: 91 | Features: 5 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:02:31] [INFO] [security-monitor] [main.py:308] - Stats - Events: 106 | Features: 6 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:03:23] [INFO] [security-monitor] [main.py:308] - Stats - Events: 111 | Features: 7 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:04:14] [INFO] [security-monitor] [main.py:308] - Stats - Events: 116 | Features: 7 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:05:10] [INFO] [security-monitor] [main.py:308] - Stats - Events: 121 | Features: 8 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:05:22] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 17:06:08] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 17:06:24] [INFO] [security-monitor] [main.py:49] - Feature extractor initialized
+[2026-01-26 17:06:24] [INFO] [security-monitor] [main.py:56] - Rules engine initialized
+[2026-01-26 17:06:24] [INFO] [security-monitor] [main.py:63] - Incident manager initialized
+[2026-01-26 17:06:25] [INFO] [security-monitor] [main.py:75] - AI model not trained yet
+[2026-01-26 17:06:25] [INFO] [security-monitor] [main.py:330] - ============================================================
+[2026-01-26 17:06:25] [INFO] [security-monitor] [main.py:331] - Security Monitor Starting - Fixed Version
+[2026-01-26 17:06:25] [INFO] [security-monitor] [main.py:332] - Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 17:06:25] [INFO] [security-monitor] [main.py:333] - Poll Interval: 10s
+[2026-01-26 17:06:25] [INFO] [security-monitor] [main.py:334] - AI Enabled: True
+[2026-01-26 17:06:25] [INFO] [security-monitor] [main.py:335] - ============================================================
+[2026-01-26 17:06:25] [INFO] [security-monitor] [main.py:374] - Starting data collection...
+[2026-01-26 17:06:36] [INFO] [security-monitor] [main.py:322] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:06:39] [INFO] [security-monitor] [main.py:373] - Shutting down Security Monitor...
+[2026-01-26 17:06:39] [INFO] [security-monitor] [main.py:308] - Stats - Events: 122 | Features: 8 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:06:39] [INFO] [security-monitor] [main.py:385] - Security Monitor shutdown complete
+[2026-01-26 17:07:16] [INFO] [security-monitor] [main.py:322] - Stats - Events: 16 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:07:54] [INFO] [security-monitor] [main.py:322] - Stats - Events: 26 | Features: 2 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:08:32] [INFO] [security-monitor] [main.py:322] - Stats - Events: 36 | Features: 2 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:09:11] [INFO] [security-monitor] [main.py:322] - Stats - Events: 46 | Features: 3 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:09:49] [INFO] [security-monitor] [main.py:322] - Stats - Events: 56 | Features: 3 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:10:49] [INFO] [security-monitor] [main.py:322] - Stats - Events: 61 | Features: 4 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:11:49] [INFO] [security-monitor] [main.py:322] - Stats - Events: 66 | Features: 4 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:12:37] [INFO] [security-monitor] [main.py:322] - Stats - Events: 76 | Features: 5 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:13:10] [INFO] [security-monitor] [main.py:322] - Stats - Events: 81 | Features: 5 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:14:32] [INFO] [security-monitor] [main.py:322] - Stats - Events: 86 | Features: 6 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:15:16] [INFO] [security-monitor] [main.py:322] - Stats - Events: 101 | Features: 6 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Errors: 0
+[2026-01-26 17:16:45] [INFO] [security-monitor] [main.py:49] - Feature extractor initialized
+[2026-01-26 17:16:45] [INFO] [security-monitor] [main.py:56] - Rules engine initialized
+[2026-01-26 17:16:45] [INFO] [security-monitor] [main.py:63] - Incident manager initialized
+[2026-01-26 17:16:46] [INFO] [security-monitor] [main.py:73] - AI model loaded
+[2026-01-26 17:16:46] [INFO] [security-monitor] [main.py:330] - ============================================================
+[2026-01-26 17:16:46] [INFO] [security-monitor] [main.py:331] - Security Monitor Starting - Fixed Version
+[2026-01-26 17:16:46] [INFO] [security-monitor] [main.py:332] - Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 17:16:46] [INFO] [security-monitor] [main.py:333] - Poll Interval: 10s
+[2026-01-26 17:16:46] [INFO] [security-monitor] [main.py:334] - AI Enabled: True
+[2026-01-26 17:16:46] [INFO] [security-monitor] [main.py:335] - ============================================================
+[2026-01-26 17:16:46] [INFO] [security-monitor] [main.py:374] - Starting data collection...
+[2026-01-26 17:16:54] [INFO] [security-monitor] [main.py:322] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 17:16:57] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 17:16:57] [INFO] [security-monitor] [main.py:387] - Shutting down Security Monitor...
+[2026-01-26 17:16:57] [INFO] [security-monitor] [main.py:322] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 17:16:57] [INFO] [security-monitor] [main.py:399] - Security Monitor shutdown complete
+[2026-01-26 17:33:33] [INFO] [security-monitor] [main.py:49] - Feature extractor initialized
+[2026-01-26 17:33:33] [INFO] [security-monitor] [main.py:56] - Rules engine initialized
+[2026-01-26 17:33:33] [INFO] [security-monitor] [main.py:63] - Incident manager initialized
+[2026-01-26 17:33:34] [INFO] [security-monitor] [main.py:73] - AI model loaded
+[2026-01-26 17:33:34] [INFO] [security-monitor] [main.py:330] - ============================================================
+[2026-01-26 17:33:34] [INFO] [security-monitor] [main.py:331] - Security Monitor Starting - Fixed Version
+[2026-01-26 17:33:34] [INFO] [security-monitor] [main.py:332] - Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 17:33:34] [INFO] [security-monitor] [main.py:333] - Poll Interval: 10s
+[2026-01-26 17:33:34] [INFO] [security-monitor] [main.py:334] - AI Enabled: True
+[2026-01-26 17:33:34] [INFO] [security-monitor] [main.py:335] - ============================================================
+[2026-01-26 17:33:34] [INFO] [security-monitor] [main.py:374] - Starting data collection...
+[2026-01-26 17:33:41] [INFO] [security-monitor] [main.py:322] - Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 17:34:26] [INFO] [security-monitor] [main.py:322] - Stats - Events: 21 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 17:34:52] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 17:34:57] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 17:35:19] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 17:36:00] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 17:36:05] [INFO] [security-monitor] [main.py:121] - Shutdown signal received. Stopping...
+[2026-01-26 17:36:09] [INFO] [security-monitor] [main.py:387] - Shutting down Security Monitor...
+[2026-01-26 17:36:09] [INFO] [security-monitor] [main.py:322] - Stats - Events: 22 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 17:36:09] [INFO] [security-monitor] [main.py:399] - Security Monitor shutdown complete
+[2026-01-26 18:29:23] [INFO] [security-monitor] [main.py:93] - ✅ Feature extractor initialized
+[2026-01-26 18:29:23] [INFO] [security-monitor] [main.py:100] - ✅ Rules engine initialized
+[2026-01-26 18:29:23] [INFO] [security-monitor] [main.py:107] - ✅ Incident manager initialized
+[2026-01-26 18:29:24] [INFO] [security-monitor] [main.py:117] - ✅ AI model loaded from disk
+[2026-01-26 18:29:24] [INFO] [security-monitor] [main.py:328] - ============================================================
+[2026-01-26 18:29:24] [INFO] [security-monitor] [main.py:329] - 🚀 Security Monitor Starting - Final Version
+[2026-01-26 18:29:24] [INFO] [security-monitor] [main.py:330] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 18:29:24] [INFO] [security-monitor] [main.py:331] - ⏱️  Poll Interval: 10s
+[2026-01-26 18:29:24] [INFO] [security-monitor] [main.py:332] - 🤖 AI Enabled: True
+[2026-01-26 18:29:24] [INFO] [security-monitor] [main.py:333] - ============================================================
+[2026-01-26 18:29:24] [INFO] [security-monitor] [main.py:383] - ✅ Starting data collection...
+[2026-01-26 18:29:35] [WARNING] [security-monitor] [main.py:153] - eventlog: wevtutil failed: Too many arguments are specified.
+The parameter is incorrect.
+
+[2026-01-26 18:29:35] [INFO] [security-monitor] [main.py:215] - 📊 Extracted 16 features
+[2026-01-26 18:29:35] [INFO] [security-monitor] [main.py:259] - 🤖 AI Score: 0.512 (NORMAL)
+[2026-01-26 18:29:35] [INFO] [security-monitor] [main.py:311] - 📈 Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 18:29:35] [ERROR] [security-monitor] [main.py:320] - Cleanup error: type object 'datetime.datetime' has no attribute 'timedelta'
+[2026-01-26 18:29:56] [WARNING] [security-monitor] [main.py:153] - eventlog: wevtutil failed: Too many arguments are specified.
+The parameter is incorrect.
+
+[2026-01-26 18:30:15] [WARNING] [security-monitor] [main.py:153] - eventlog: wevtutil failed: Too many arguments are specified.
+The parameter is incorrect.
+
+[2026-01-26 18:30:15] [INFO] [security-monitor] [main.py:311] - 📈 Stats - Events: 16 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 18:30:19] [INFO] [security-monitor] [main.py:126] - Shutdown signal received. Stopping...
+[2026-01-26 18:30:19] [INFO] [security-monitor] [main.py:396] - Shutting down Security Monitor...
+[2026-01-26 18:30:19] [INFO] [security-monitor] [main.py:311] - 📈 Stats - Events: 16 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 18:30:19] [INFO] [security-monitor] [main.py:408] - ✅ Security Monitor shutdown complete
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:93] - ✅ Feature extractor initialized
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:100] - ✅ Rules engine initialized
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:107] - ✅ Incident manager initialized
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:117] - ✅ AI model loaded from disk
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:328] - ============================================================
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:329] - 🚀 Security Monitor Starting - Final Version
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:330] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:331] - ⏱️  Poll Interval: 10s
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:332] - 🤖 AI Enabled: True
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:333] - ============================================================
+[2026-01-26 18:30:38] [INFO] [security-monitor] [main.py:383] - ✅ Starting data collection...
+[2026-01-26 18:30:50] [WARNING] [security-monitor] [main.py:153] - eventlog: wevtutil failed: Too many arguments are specified.
+The parameter is incorrect.
+
+[2026-01-26 18:30:50] [INFO] [security-monitor] [main.py:215] - 📊 Extracted 16 features
+[2026-01-26 18:30:50] [INFO] [security-monitor] [main.py:259] - 🤖 AI Score: 0.509 (NORMAL)
+[2026-01-26 18:30:50] [INFO] [security-monitor] [main.py:311] - 📈 Stats - Events: 5 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 18:30:50] [ERROR] [security-monitor] [main.py:320] - Cleanup error: type object 'datetime.datetime' has no attribute 'timedelta'
+[2026-01-26 18:31:04] [INFO] [security-monitor] [main.py:126] - Shutdown signal received. Stopping...
+[2026-01-26 18:31:09] [INFO] [security-monitor] [main.py:126] - Shutdown signal received. Stopping...
+[2026-01-26 18:31:09] [INFO] [security-monitor] [main.py:396] - Shutting down Security Monitor...
+[2026-01-26 18:31:09] [INFO] [security-monitor] [main.py:311] - 📈 Stats - Events: 7 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 18:31:09] [INFO] [security-monitor] [main.py:408] - ✅ Security Monitor shutdown complete
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:93] - ✅ Feature extractor initialized
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:100] - ✅ Rules engine initialized
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:107] - ✅ Incident manager initialized
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:117] - ✅ AI model loaded from disk
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:406] - ============================================================
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:407] - 🚀 Security Monitor Starting - Corrected Version
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:408] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:409] - ⏱️  Poll Interval: 10s
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:410] - 🤖 AI Enabled: True
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:411] - ============================================================
+[2026-01-26 18:49:59] [INFO] [security-monitor] [main.py:461] - ✅ Starting data collection...
+[2026-01-26 18:50:11] [INFO] [security-monitor] [main.py:272] - 📊 Extracted 16 features
+[2026-01-26 18:50:11] [INFO] [security-monitor] [main.py:303] - 🤖 AI Score: 0.499 (✅ NORMAL)
+[2026-01-26 18:50:11] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 3 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 18:50:51] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 10 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 18:51:29] [INFO] [security-monitor] [main.py:272] - 📊 Extracted 16 features
+[2026-01-26 18:51:29] [INFO] [security-monitor] [main.py:303] - 🤖 AI Score: 0.503 (✅ NORMAL)
+[2026-01-26 18:51:29] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 16 | Features: 2 | Alerts: 0 | Incidents: 0 | AI Scores: 2 | Errors: 0
+[2026-01-26 18:52:07] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 22 | Features: 2 | Alerts: 0 | Incidents: 0 | AI Scores: 2 | Errors: 0
+[2026-01-26 18:52:45] [INFO] [security-monitor] [main.py:272] - 📊 Extracted 16 features
+[2026-01-26 18:52:46] [INFO] [security-monitor] [main.py:303] - 🤖 AI Score: 0.511 (✅ NORMAL)
+[2026-01-26 18:52:46] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 28 | Features: 3 | Alerts: 0 | Incidents: 0 | AI Scores: 3 | Errors: 0
+[2026-01-26 18:52:58] [INFO] [security-monitor] [main.py:126] - Shutdown signal received. Stopping...
+[2026-01-26 18:52:58] [INFO] [security-monitor] [main.py:474] - Shutting down Security Monitor...
+[2026-01-26 18:52:58] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 29 | Features: 3 | Alerts: 0 | Incidents: 0 | AI Scores: 3 | Errors: 0
+[2026-01-26 18:52:58] [INFO] [security-monitor] [main.py:486] - ✅ Security Monitor shutdown complete
+[2026-01-26 19:13:19] [INFO] [security-monitor] [main.py:93] - ✅ Feature extractor initialized
+[2026-01-26 19:13:20] [INFO] [security-monitor] [main.py:100] - ✅ Rules engine initialized
+[2026-01-26 19:13:20] [INFO] [security-monitor] [main.py:107] - ✅ Incident manager initialized
+[2026-01-26 19:13:21] [INFO] [security-monitor] [main.py:117] - ✅ AI model loaded from disk
+[2026-01-26 19:14:26] [INFO] [security-monitor] [main.py:93] - ✅ Feature extractor initialized
+[2026-01-26 19:14:26] [INFO] [security-monitor] [main.py:100] - ✅ Rules engine initialized
+[2026-01-26 19:14:26] [INFO] [security-monitor] [main.py:107] - ✅ Incident manager initialized
+[2026-01-26 19:14:27] [INFO] [security-monitor] [main.py:117] - ✅ AI model loaded from disk
+[2026-01-26 19:14:47] [INFO] [security-monitor] [main.py:93] - ✅ Feature extractor initialized
+[2026-01-26 19:14:47] [INFO] [security-monitor] [main.py:100] - ✅ Rules engine initialized
+[2026-01-26 19:14:47] [INFO] [security-monitor] [main.py:107] - ✅ Incident manager initialized
+[2026-01-26 19:14:48] [INFO] [security-monitor] [main.py:117] - ✅ AI model loaded from disk
+[2026-01-26 19:14:48] [INFO] [security-monitor] [main.py:406] - ============================================================
+[2026-01-26 19:14:48] [INFO] [security-monitor] [main.py:407] - 🚀 Security Monitor Starting - Corrected Version
+[2026-01-26 19:14:48] [INFO] [security-monitor] [main.py:408] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-26 19:14:48] [INFO] [security-monitor] [main.py:409] - ⏱️  Poll Interval: 10s
+[2026-01-26 19:14:48] [INFO] [security-monitor] [main.py:410] - 🤖 AI Enabled: True
+[2026-01-26 19:14:48] [INFO] [security-monitor] [main.py:411] - ============================================================
+[2026-01-26 19:14:48] [INFO] [security-monitor] [main.py:461] - ✅ Starting data collection...
+[2026-01-26 19:14:56] [INFO] [security-monitor] [main.py:272] - 📊 Extracted 16 features
+[2026-01-26 19:14:56] [INFO] [security-monitor] [main.py:303] - 🤖 AI Score: 0.502 (✅ NORMAL)
+[2026-01-26 19:14:56] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 3 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 19:15:30] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 12 | Features: 1 | Alerts: 0 | Incidents: 0 | AI Scores: 1 | Errors: 0
+[2026-01-26 19:16:04] [INFO] [security-monitor] [main.py:272] - 📊 Extracted 16 features
+[2026-01-26 19:16:04] [INFO] [security-monitor] [main.py:303] - 🤖 AI Score: 0.510 (✅ NORMAL)
+[2026-01-26 19:16:04] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 21 | Features: 2 | Alerts: 0 | Incidents: 0 | AI Scores: 2 | Errors: 0
+[2026-01-26 19:16:09] [INFO] [security-monitor] [main.py:126] - Shutdown signal received. Stopping...
+[2026-01-26 19:16:09] [INFO] [security-monitor] [main.py:474] - Shutting down Security Monitor...
+[2026-01-26 19:16:09] [INFO] [security-monitor] [main.py:364] - 📈 Stats - Events: 21 | Features: 2 | Alerts: 0 | Incidents: 0 | AI Scores: 2 | Errors: 0
+[2026-01-26 19:16:09] [INFO] [security-monitor] [main.py:486] - ✅ Security Monitor shutdown complete
+[2026-01-26 20:47:20] [INFO] [security-monitor] [main.py:116] - ✅ Feature extractor initialized
+[2026-01-26 20:47:20] [INFO] [security-monitor] [main.py:123] - ✅ Rules engine initialized
+[2026-01-26 20:47:20] [INFO] [security-monitor] [main.py:130] - ✅ Incident manager initialized
+[2026-01-26 20:47:21] [INFO] [security-monitor] [main.py:140] - ✅ AI model loaded from disk
+[2026-01-26 20:48:26] [INFO] [security-monitor] [main.py:116] - ✅ Feature extractor initialized
+[2026-01-26 20:48:26] [INFO] [security-monitor] [main.py:123] - ✅ Rules engine initialized
+[2026-01-26 20:48:26] [INFO] [security-monitor] [main.py:130] - ✅ Incident manager initialized
+[2026-01-26 20:48:28] [INFO] [security-monitor] [main.py:140] - ✅ AI model loaded from disk
+[2026-01-26 20:48:28] [INFO] [security-monitor] [main.py:152] - ✅ Operational orchestrator initialized (Phase 4)

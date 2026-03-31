@@ -1,0 +1,131 @@
+[2026-01-27 17:29:33] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 17:29:33] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 17:29:33] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:168] - ✅ Operational orchestrator initialized (Phase 4)
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:254] - ======================================================================
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:255] - 🚀 Security Monitor Starting - Phase 4 Integrated
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:256] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:257] - ⏱️  Poll Interval: 10s
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:258] - 🤖 AI Enabled: True
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:259] - 📊 Phase 4 Operational: ENABLED
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:261] - 📄 Auto-reports: ON for HIGH severity incidents
+[2026-01-27 17:29:35] [INFO] [security-monitor] [main.py:264] - ======================================================================
+[2026-01-27 17:31:24] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 17:31:24] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 17:31:24] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:168] - ✅ Operational orchestrator initialized (Phase 4)
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:254] - ======================================================================
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:255] - 🚀 Security Monitor Starting - Phase 4 Integrated
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:256] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:257] - ⏱️  Poll Interval: 10s
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:258] - 🤖 AI Enabled: True
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:259] - 📊 Phase 4 Operational: ENABLED
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:261] - 📄 Auto-reports: ON for HIGH severity incidents
+[2026-01-27 17:31:25] [INFO] [security-monitor] [main.py:264] - ======================================================================
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:168] - ✅ Operational orchestrator initialized (Phase 4)
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:373] - ======================================================================
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:374] - 🚀 Security Monitor Starting - Phase 4 Integrated
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:375] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:376] - ⏱️  Poll Interval: 10s
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:377] - 🤖 AI Enabled: True
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:378] - 📊 Phase 4 Operational: ENABLED
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:380] - 📄 Auto-reports: ON for HIGH severity incidents
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:383] - ======================================================================
+[2026-01-27 18:07:23] [INFO] [security-monitor] [main.py:445] - ✅ Starting data collection with Phase 4 operational response...
+[2026-01-27 18:07:26] [INFO] [security-monitor] [main.py:365] - 📈 Stats - Events: 3 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 18:07:55] [INFO] [security-monitor] [main.py:69] - Shutdown signal received. Stopping...
+[2026-01-27 18:07:55] [INFO] [security-monitor] [main.py:491] - Shutting down Security Monitor with Phase 4 operational response...
+[2026-01-27 18:07:55] [INFO] [security-monitor] [main.py:365] - 📈 Stats - Events: 9 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 18:07:55] [INFO] [security-monitor] [main.py:503] - ✅ Security Monitor shutdown complete with Phase 4 integration
+[2026-01-27 18:15:23] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 18:15:23] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 18:15:23] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:168] - ✅ Operational orchestrator initialized (Phase 4)
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:373] - ======================================================================
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:374] - 🚀 Security Monitor Starting - Phase 4 Integrated
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:375] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:376] - ⏱️  Poll Interval: 10s
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:377] - 🤖 AI Enabled: True
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:378] - 📊 Phase 4 Operational: ENABLED
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:380] - 📄 Auto-reports: ON for HIGH severity incidents
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:383] - ======================================================================
+[2026-01-27 18:15:24] [INFO] [security-monitor] [main.py:445] - ✅ Starting data collection with Phase 4 operational response...
+[2026-01-27 18:15:26] [INFO] [security-monitor] [main.py:365] - 📈 Stats - Events: 3 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 18:15:52] [INFO] [security-monitor] [main.py:69] - Shutdown signal received. Stopping...
+[2026-01-27 18:15:52] [INFO] [security-monitor] [main.py:491] - Shutting down Security Monitor with Phase 4 operational response...
+[2026-01-27 18:15:52] [INFO] [security-monitor] [main.py:365] - 📈 Stats - Events: 9 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 18:15:52] [INFO] [security-monitor] [main.py:503] - ✅ Security Monitor shutdown complete with Phase 4 integration
+[2026-01-27 18:39:18] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 18:39:18] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 18:39:18] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:168] - ✅ Operational orchestrator initialized (Phase 4)
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:373] - ======================================================================
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:374] - 🚀 Security Monitor Starting - Phase 4 Integrated
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:375] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:376] - ⏱️  Poll Interval: 10s
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:377] - 🤖 AI Enabled: True
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:378] - 📊 Phase 4 Operational: ENABLED
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:380] - 📄 Auto-reports: ON for HIGH severity incidents
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:383] - ======================================================================
+[2026-01-27 18:39:19] [INFO] [security-monitor] [main.py:445] - ✅ Starting data collection with Phase 4 operational response...
+[2026-01-27 18:39:25] [INFO] [security-monitor] [main.py:365] - 📈 Stats - Events: 3 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 18:40:05] [INFO] [security-monitor] [main.py:365] - 📈 Stats - Events: 10 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 18:40:05] [INFO] [security-monitor] [main.py:69] - Shutdown signal received. Stopping...
+[2026-01-27 18:40:05] [INFO] [security-monitor] [main.py:491] - Shutting down Security Monitor with Phase 4 operational response...
+[2026-01-27 18:40:05] [INFO] [security-monitor] [main.py:365] - 📈 Stats - Events: 10 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 18:40:05] [INFO] [security-monitor] [main.py:503] - ✅ Security Monitor shutdown complete with Phase 4 integration
+[2026-01-27 19:22:04] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 19:22:04] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 19:22:04] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 19:22:05] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 19:29:05] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 19:29:05] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 19:29:05] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:168] - ✅ Operational orchestrator initialized (Phase 4)
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:382] - ======================================================================
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:383] - 🚀 Security Monitor Starting - Phase 4 Integrated
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:384] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:385] - ⏱️  Poll Interval: 10s
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:386] - 🤖 AI Enabled: True
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:387] - 📊 Phase 4 Operational: ENABLED
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:389] - 📄 Auto-reports: ON for HIGH severity incidents
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:392] - ======================================================================
+[2026-01-27 19:29:06] [INFO] [security-monitor] [main.py:454] - ✅ Starting data collection with Phase 4 operational response...
+[2026-01-27 19:30:05] [INFO] [security-monitor] [main.py:374] - 📈 Stats - Events: 3 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 19:30:19] [INFO] [security-monitor] [main.py:69] - Shutdown signal received. Stopping...
+[2026-01-27 19:30:19] [INFO] [security-monitor] [main.py:500] - Shutting down Security Monitor with Phase 4 operational response...
+[2026-01-27 19:30:19] [INFO] [security-monitor] [main.py:374] - 📈 Stats - Events: 7 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 19:30:19] [INFO] [security-monitor] [main.py:512] - ✅ Security Monitor shutdown complete with Phase 4 integration
+[2026-01-27 19:30:29] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 19:30:29] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 19:30:29] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 19:30:29] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 20:33:18] [INFO] [security-monitor] [main.py:132] - ✅ Feature extractor initialized
+[2026-01-27 20:33:18] [INFO] [security-monitor] [main.py:139] - ✅ Rules engine initialized
+[2026-01-27 20:33:18] [INFO] [security-monitor] [main.py:146] - ✅ Incident manager initialized
+[2026-01-27 20:33:24] [INFO] [security-monitor] [main.py:156] - ✅ AI model loaded from disk
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:168] - ✅ Operational orchestrator initialized (Phase 4)
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:406] - ======================================================================
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:407] - 🚀 Security Monitor Starting - Phase 4 Integrated
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:408] - 📂 Database: C:\Belo2\suspicious-tracker\security.db
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:409] - ⏱️  Poll Interval: 10s
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:410] - 🤖 AI Enabled: True
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:411] - 📊 Phase 4 Operational: ENABLED
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:413] - 📄 Auto-reports: ON for HIGH severity incidents
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:416] - ======================================================================
+[2026-01-27 20:33:39] [INFO] [security-monitor] [main.py:478] - ✅ Starting data collection with Phase 4 operational response...
+[2026-01-27 20:33:50] [INFO] [security-monitor] [main.py:398] - 📈 Stats - Events: 3 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 20:34:39] [INFO] [security-monitor] [main.py:398] - 📈 Stats - Events: 10 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 20:35:24] [INFO] [security-monitor] [main.py:69] - Shutdown signal received. Stopping...
+[2026-01-27 20:35:24] [INFO] [security-monitor] [main.py:524] - Shutting down Security Monitor with Phase 4 operational response...
+[2026-01-27 20:35:24] [INFO] [security-monitor] [main.py:398] - 📈 Stats - Events: 14 | Features: 0 | Alerts: 0 | Incidents: 0 | AI Scores: 0 | Reports: 0 | Emails: 0 | Errors: 0
+[2026-01-27 20:35:24] [INFO] [security-monitor] [main.py:536] - ✅ Security Monitor shutdown complete with Phase 4 integration

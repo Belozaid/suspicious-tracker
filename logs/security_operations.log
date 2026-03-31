@@ -1,0 +1,106 @@
+2026-02-02 16:43:08 - security-operations-center - INFO - ======================================================================
+2026-02-02 16:43:08 - security-operations-center - INFO - Starting Security Operations Center - Version 4.0.0
+2026-02-02 16:43:08 - security-operations-center - INFO - Phase 4: Complete Operational Model
+2026-02-02 16:43:08 - security-operations-center - INFO - ======================================================================
+2026-02-02 16:43:08 - security-operations-center - INFO - Connected to database: data/security_operations.db
+2026-02-02 16:43:08 - security-operations-center - INFO - Created/updated database tables
+2026-02-02 16:43:08 - security-operations-center - INFO - ✅ Database initialized: data/security_operations.db
+2026-02-02 16:43:08 - security-operations-center - INFO - ✅ Feature Engine initialized
+2026-02-02 16:43:08 - security-operations-center - INFO - ✅ Rules Engine initialized
+2026-02-02 16:43:08 - security-operations-center - INFO - ✅ Incident Manager initialized
+2026-02-02 16:43:08 - security-operations-center - INFO - Initialized 4 response policies
+2026-02-02 16:43:08 - security-operations-center - INFO - ✅ Operational Orchestrator initialized
+2026-02-02 16:43:08 - security-operations-center - ERROR - Failed to initialize Phase 4 components: name 'templates_dir' is not defined
+2026-02-02 16:43:18 - security-operations-center - INFO - ======================================================================
+2026-02-02 16:43:18 - security-operations-center - INFO - Starting Security Operations Center - Version 4.0.0
+2026-02-02 16:43:18 - security-operations-center - INFO - Phase 4: Complete Operational Model
+2026-02-02 16:43:18 - security-operations-center - INFO - ======================================================================
+2026-02-02 16:43:18 - security-operations-center - INFO - Connected to database: data/security_operations.db
+2026-02-02 16:43:18 - security-operations-center - INFO - Created/updated database tables
+2026-02-02 16:43:18 - security-operations-center - INFO - ✅ Database initialized: data/security_operations.db
+2026-02-02 16:43:18 - security-operations-center - INFO - ✅ Feature Engine initialized
+2026-02-02 16:43:18 - security-operations-center - INFO - ✅ Rules Engine initialized
+2026-02-02 16:43:18 - security-operations-center - INFO - ✅ Incident Manager initialized
+2026-02-02 16:43:18 - security-operations-center - INFO - Initialized 4 response policies
+2026-02-02 16:43:18 - security-operations-center - INFO - ✅ Operational Orchestrator initialized
+2026-02-02 16:43:18 - security-operations-center - ERROR - Failed to initialize Phase 4 components: name 'templates_dir' is not defined
+2026-02-02 16:43:48 - security-operations-center - INFO - ======================================================================
+2026-02-02 16:43:48 - security-operations-center - INFO - Starting Security Operations Center - Version 4.0.0
+2026-02-02 16:43:48 - security-operations-center - INFO - Phase 4: Complete Operational Model
+2026-02-02 16:43:48 - security-operations-center - INFO - ======================================================================
+2026-02-02 16:43:48 - security-operations-center - INFO - Connected to database: data/security_operations.db
+2026-02-02 16:43:48 - security-operations-center - INFO - Created/updated database tables
+2026-02-02 16:43:48 - security-operations-center - INFO - ✅ Database initialized: data/security_operations.db
+2026-02-02 16:43:48 - security-operations-center - INFO - ✅ Feature Engine initialized
+2026-02-02 16:43:48 - security-operations-center - INFO - ✅ Rules Engine initialized
+2026-02-02 16:43:48 - security-operations-center - INFO - ✅ Incident Manager initialized
+2026-02-02 16:43:48 - security-operations-center - INFO - Initialized 4 response policies
+2026-02-02 16:43:48 - security-operations-center - INFO - ✅ Operational Orchestrator initialized
+2026-02-02 16:43:48 - security-operations-center - ERROR - Failed to initialize Phase 4 components: name 'templates_dir' is not defined
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ============================================================
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - Starting Security Monitor Enterprise - Version 4.0.0
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ============================================================
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Dashboard dependencies available
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - Connected to database: data/security_operations.db
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - Created/updated database tables
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Database initialized: data/security_operations.db
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Feature Engine initialized
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Rules Engine initialized
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Incident Manager initialized
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - Initializing data collectors...
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - تمت إضافة المهمة: process_collection (كل 30 ثانية)
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Process Collector: Active
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - تمت إضافة المهمة: network_collection (كل 45 ثانية)
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Network Collector: Active
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - تمت إضافة المهمة: eventlog_collection (كل 60 ثانية)
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ EventLog Collector: Active
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - تمت إضافة المهمة: login_collection (كل 120 ثانية)
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Login Collector: Active
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - تمت إضافة المهمة: detection_cycle (كل 60 ثانية)
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - تمت إضافة المهمة: feature_extraction (كل 60 ثانية)
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Detection System: Active (every 60s)
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - System initialization completed successfully
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - Starting Security Monitor Enterprise...
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - بدء تشغيل مجدول المهام
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - ✅ Scheduler started
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - Performing initial data collection...
+2026-02-02 17:45:56 - security-monitor-enterprise - INFO - Running initial data collection...
+2026-02-02 17:45:57 - security-monitor-enterprise - ERROR - Error inserting event: no such table: events
+2026-02-02 17:45:58 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:45:58 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:45:58 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:45:58 - security-monitor-enterprise - WARNING - Failed to store process data
+2026-02-02 17:45:59 - security-monitor-enterprise - ERROR - Error inserting event: no such table: events
+2026-02-02 17:45:59 - security-monitor-enterprise - ERROR - Error collecting network data: 'NetworkCollector' object has no attribute 'get_network_io'
+2026-02-02 17:46:00 - security-monitor-enterprise - ERROR - خطأ في جمع سجلات الأحداث: The filename, directory name, or volume label syntax is incorrect.
+
+2026-02-02 17:46:01 - security-monitor-enterprise - ERROR - Error inserting event: no such table: events
+2026-02-02 17:46:01 - security-monitor-enterprise - WARNING - Failed to store login data
+2026-02-02 17:46:01 - security-monitor-enterprise - INFO - ✅ Initial data collection completed
+2026-02-02 17:46:01 - security-monitor-enterprise - INFO - ✅ System is now running
+2026-02-02 17:46:27 - security-monitor-enterprise - ERROR - Error inserting event: no such table: events
+2026-02-02 17:46:28 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:46:28 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:46:28 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:46:28 - security-monitor-enterprise - WARNING - Failed to store process data
+2026-02-02 17:46:31 - security-monitor-enterprise - ERROR - Error getting system summary: no such table: events
+2026-02-02 17:46:42 - security-monitor-enterprise - ERROR - Error inserting event: no such table: events
+2026-02-02 17:46:42 - security-monitor-enterprise - ERROR - Error collecting network data: 'NetworkCollector' object has no attribute 'get_network_io'
+2026-02-02 17:46:56 - security-monitor-enterprise - ERROR - خطأ في جمع سجلات الأحداث: The filename, directory name, or volume label syntax is incorrect.
+
+2026-02-02 17:46:56 - security-monitor-enterprise - INFO - Starting detection cycle...
+2026-02-02 17:46:56 - security-monitor-enterprise - ERROR - Error getting events for window: no such table: events
+2026-02-02 17:46:56 - security-monitor-enterprise - ERROR - Error getting events for window: no such table: events
+2026-02-02 17:46:57 - security-monitor-enterprise - ERROR - Error inserting event: no such table: events
+2026-02-02 17:46:58 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:46:58 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:46:58 - security-monitor-enterprise - ERROR - Error inserting system stat: no such table: system_stats
+2026-02-02 17:46:58 - security-monitor-enterprise - WARNING - Failed to store process data
+2026-02-02 17:47:02 - security-monitor-enterprise - ERROR - Error getting system summary: no such table: events
+2026-02-02 17:47:14 - security-monitor-enterprise - INFO - Received signal 2
+2026-02-02 17:47:14 - security-monitor-enterprise - INFO - Stopping Security Monitor Enterprise...
+2026-02-02 17:47:14 - security-monitor-enterprise - INFO - تم إيقاف مجدول المهام
+2026-02-02 17:47:14 - security-monitor-enterprise - INFO - ✅ Scheduler stopped
+2026-02-02 17:47:14 - security-monitor-enterprise - INFO - Closed all database connections
+2026-02-02 17:47:14 - security-monitor-enterprise - INFO - ✅ Database connections closed
+2026-02-02 17:47:14 - security-monitor-enterprise - INFO - ✅ System stopped successfully

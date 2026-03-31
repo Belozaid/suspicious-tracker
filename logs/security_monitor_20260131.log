@@ -1,0 +1,7 @@
+[2026-01-31 15:00:47] [INFO] [security-monitor] [main.py:133] - ✅ Feature extractor initialized
+[2026-01-31 15:00:47] [INFO] [security-monitor] [main.py:140] - ✅ Rules engine initialized
+[2026-01-31 15:00:47] [INFO] [security-monitor] [main.py:147] - ✅ Incident manager initialized
+[2026-01-31 15:00:54] [INFO] [security-monitor] [main.py:157] - ✅ AI model loaded from disk
+[2026-01-31 16:13:57] [INFO] [security-monitor] [main.py:134] - ✅ Feature extractor initialized
+[2026-01-31 16:13:57] [INFO] [security-monitor] [main.py:141] - ✅ Rules engine initialized
+[2026-01-31 16:13:57] [INFO] [security-monitor] [main.py:148] - ✅ Incident manager initialized

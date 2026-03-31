@@ -1,0 +1,821 @@
+2026-02-02 14:33:11,238 - SOC - INFO - Phase 4 initialized successfully
+2026-02-02 14:33:11,254 - SOC - INFO - Process and Network collectors initialized
+2026-02-02 14:33:11,254 - SOC - INFO - Detection system initialized
+2026-02-02 14:33:11,254 - SOC - INFO - Starting SOC Enterprise System v4.0
+2026-02-02 14:33:12,599 - dash.dash - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-02-02 14:33:12,599 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2026-02-02 14:33:12,599 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-02 14:33:12,902 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:12,902 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:12,918 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:12,918 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:12,934 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:12,934 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:12,934 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:12,934 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:12,949 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:12,949 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:12,949 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:12,949 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:12,965 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:12,980 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:12,980 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:12,980 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:14,903 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:14,903 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:14,919 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:14] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:14,919 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:14] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:14,934 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:14,934 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:14,934 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:14] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:14,950 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:14] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:16,816 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:16,832 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:16,832 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:16,844 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:16,847 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'alerts-timeline-chart.figure'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'alerts-timeline-chart.figure'."
+2026-02-02 14:33:16,864 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:16,865 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..threat-level-gauge.figure...threat-description.children..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..threat-level-gauge.figure...threat-description.children..'."
+2026-02-02 14:33:16,866 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:16,868 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:16,870 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:16,880 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:16,888 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:17,072 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:17,074 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:17,076 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:17] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:17,081 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:17] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:18,058 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'current-time.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'current-time.children'."
+2026-02-02 14:33:18,059 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'system-uptime.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'system-uptime.children'."
+2026-02-02 14:33:18,060 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:18] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:18,065 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:18] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:18,410 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:18] "GET / HTTP/1.1" 200 -
+2026-02-02 14:33:20,640 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "GET /_dash-layout HTTP/1.1" 200 -
+2026-02-02 14:33:20,642 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "GET /_dash-dependencies HTTP/1.1" 200 -
+2026-02-02 14:33:20,642 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "GET /_favicon.ico?v=3.4.0 HTTP/1.1" 200 -
+2026-02-02 14:33:20,711 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:20,713 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:20,716 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:20,717 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:20,728 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:20,729 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:25,346 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:25] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2026-02-02 14:33:25,396 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:25] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2026-02-02 14:33:28,966 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:28] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2026-02-02 14:33:30,735 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:30,735 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:30,735 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:30,735 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:30,735 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:30,735 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:40,728 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:40,728 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:40,728 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:40,728 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:40,728 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:40,728 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:44,903 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'page.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'page.children'."
+2026-02-02 14:33:44,903 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'page.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'page.children'."
+2026-02-02 14:33:44,903 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'page.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'page.children'."
+2026-02-02 14:33:44,903 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:44] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:44,903 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:44] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:44,918 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:44] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:46,900 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'page.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'page.children'."
+2026-02-02 14:33:46,900 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'page.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'page.children'."
+2026-02-02 14:33:46,900 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:46,900 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:33:50,712 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:50,713 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:50,714 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:50,714 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:50,716 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:33:50,717 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:33:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:00,721 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:00,722 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:00,722 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:00,724 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:00,725 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:00,727 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:00] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:10,713 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:10,714 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:10,715 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:10,717 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:10,718 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:10,720 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:21,926 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:21,926 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:21,926 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:21,926 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:21,942 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:21,942 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:31,925 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:31,925 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:31,925 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:31,925 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:31,941 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:31,941 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:41,933 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:41,933 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:41,933 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:41,933 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:41,933 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:41,933 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2026-02-02 14:34:44,948 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'page.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'page.children'."
+2026-02-02 14:34:45,011 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'page.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'page.children'."
+2026-02-02 14:34:45,011 - dashboard_pro - ERROR - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1492, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: 'page.children'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1595, in dispatch
+    func = self._prepare_callback(g, body)
+  File "C:\Users\Belal Al-sheikh\AppData\Local\Programs\Python\Python310\lib\site-packages\dash\dash.py", line 1526, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output 'page.children'."
+2026-02-02 14:34:45,042 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:45] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:34:45,105 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:45] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:34:45,183 - werkzeug - INFO - 127.0.0.1 - - [02/Feb/2026 14:34:45] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2026-02-02 14:34:45,798 - SOC - INFO - SOC Enterprise System stopped
